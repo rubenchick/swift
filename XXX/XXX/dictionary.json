@@ -1,0 +1,3045 @@
+{
+  "users" : {
+    "9gDKqKWxJEUZQYqBOE74yNY9ryp2" : {
+      "I_am_buying" : {
+        "date" : -3,
+        "foreign" : "אֲנִי קוׂנֶה",
+        "image" : "I_am_buying",
+        "level" : 3,
+        "mistake" : 2,
+        "original" : "я покупаю",
+        "simple" : "ани конэ"
+      },
+      "a_little" : {
+        "date" : -3,
+        "foreign" : "מְעַט",
+        "image" : "a_little",
+        "level" : 3,
+        "mistake" : 24,
+        "original" : "мало",
+        "simple" : "мэсат"
+      },
+      "accept" : {
+        "date" : 0,
+        "foreign" : "הִתפַּייֵס",
+        "image" : "accept",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "мириться",
+        "simple" : "хитпаиес"
+      },
+      "after" : {
+        "date" : 1,
+        "foreign" : "אַחֲרֵי",
+        "image" : "after",
+        "level" : 4,
+        "mistake" : 11,
+        "original" : "после",
+        "simple" : "ах̣арей"
+      },
+      "all" : {
+        "date" : 26,
+        "foreign" : "כָּל",
+        "image" : "all",
+        "level" : 5,
+        "mistake" : 1,
+        "original" : "каждый",
+        "simple" : "коль"
+      },
+      "all2" : {
+        "date" : -1,
+        "foreign" : "הַכֹּל",
+        "image" : "all2",
+        "level" : 2,
+        "mistake" : 18,
+        "original" : "всё",
+        "simple" : "ẋаколь"
+      },
+      "almost2" : {
+        "date" : 23,
+        "foreign" : "רַבּוֹת",
+        "image" : "almost2",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "многие",
+        "simple" : "работ"
+      },
+      "and" : {
+        "date" : 2,
+        "foreign" : "וֵגַם",
+        "image" : "and",
+        "level" : 3,
+        "mistake" : 2,
+        "original" : "и",
+        "simple" : "вегам"
+      },
+      "angry" : {
+        "date" : 0,
+        "foreign" : "בְּרוֹגֵז",
+        "image" : "angry",
+        "level" : 1,
+        "mistake" : 3,
+        "original" : "со злостью",
+        "simple" : "брогез"
+      },
+      "at_somebody" : {
+        "date" : 1,
+        "foreign" : "אֵצֶל",
+        "image" : "at_somebody",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "у (кого-то)",
+        "simple" : "э́цэль"
+      },
+      "attractive" : {
+        "date" : 23,
+        "foreign" : "יָפֶה",
+        "image" : "attractive",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "красивый",
+        "simple" : "йафэ"
+      },
+      "bad" : {
+        "date" : 0,
+        "foreign" : "רַע",
+        "image" : "bad",
+        "level" : 3,
+        "mistake" : 5,
+        "original" : "плохой (ед. м.р.)",
+        "simple" : "ра"
+      },
+      "before" : {
+        "date" : 0,
+        "foreign" : "לִפְנֵי",
+        "image" : "before",
+        "level" : 3,
+        "mistake" : 7,
+        "original" : "перед, тому назад, до",
+        "simple" : "лифнэй"
+      },
+      "big" : {
+        "date" : 23,
+        "foreign" : "גָדוֹל",
+        "image" : "big",
+        "level" : 5,
+        "mistake" : 1,
+        "original" : "большой",
+        "simple" : "гадоль"
+      },
+      "bird" : {
+        "date" : -1,
+        "foreign" : "יוֹנֶה",
+        "image" : "bird",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "птица",
+        "simple" : "йоне"
+      },
+      "book" : {
+        "date" : 22,
+        "foreign" : "סֵפֶר",
+        "image" : "book",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "книга",
+        "simple" : "сэ́фэр"
+      },
+      "books" : {
+        "date" : -1,
+        "foreign" : "סְפָרִים",
+        "image" : "books",
+        "level" : 4,
+        "mistake" : 11,
+        "original" : "книги",
+        "simple" : "мн.ч. сфарим"
+      },
+      "bored" : {
+        "date" : -1,
+        "foreign" : "מְשַׁעַם",
+        "image" : "bored",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "скучный (ед. м.р.)",
+        "simple" : "месаам"
+      },
+      "boy" : {
+        "date" : 8,
+        "foreign" : "יֶלֶד",
+        "image" : "boy",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "мальчик, ребёнок",
+        "simple" : "йэ́лэд"
+      },
+      "boys" : {
+        "date" : 0,
+        "foreign" : "יְלָדִים",
+        "image" : "boys",
+        "level" : 3,
+        "mistake" : 12,
+        "original" : "мальчики, дети",
+        "simple" : "мн.ч. йэладим"
+      },
+      "bravo" : {
+        "date" : -1,
+        "foreign" : "כָּל הַכָּבוֹד",
+        "image" : "bravo",
+        "level" : 2,
+        "mistake" : 4,
+        "original" : "молодец! браво!",
+        "simple" : "кол ẋа-кавод!"
+      },
+      "brother" : {
+        "date" : 85,
+        "foreign" : "אָח",
+        "image" : "brother",
+        "level" : 6,
+        "mistake" : 4,
+        "original" : "брат"
+      },
+      "brothers" : {
+        "date" : -1,
+        "foreign" : "אַחִים",
+        "image" : "brothers",
+        "level" : 5,
+        "mistake" : 11,
+        "original" : "братья"
+      },
+      "build" : {
+        "date" : 0,
+        "foreign" : "בוֹנוֹת",
+        "image" : "build",
+        "level" : 2,
+        "mistake" : 5,
+        "original" : "строить",
+        "simple" : "бонот"
+      },
+      "bus" : {
+        "date" : 0,
+        "foreign" : "אוֹטוֹבּוּס",
+        "image" : "bus",
+        "level" : 4,
+        "mistake" : 6,
+        "original" : "автобус",
+        "simple" : "о́тобус"
+      },
+      "busy" : {
+        "date" : 0,
+        "foreign" : "עָסוּק",
+        "image" : "busy",
+        "level" : 2,
+        "mistake" : 7,
+        "original" : "занятый",
+        "simple" : "сасук"
+      },
+      "can_i_sit" : {
+        "date" : 0,
+        "foreign" : "אֶפשָר לָשֶבֶת",
+        "image" : "can_i_sit",
+        "level" : 2,
+        "mistake" : 14,
+        "original" : "можно сесть?",
+        "simple" : "эфшар лашэ́вэт?"
+      },
+      "chair" : {
+        "date" : -1,
+        "foreign" : "כִיסֵא",
+        "image" : "chair",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "стул",
+        "simple" : "кисе"
+      },
+      "chill" : {
+        "date" : 2,
+        "foreign" : "קֵרוּר",
+        "image" : "chill",
+        "level" : 3,
+        "mistake" : 2,
+        "original" : "прохладный",
+        "simple" : "керур"
+      },
+      "clothes" : {
+        "date" : -8,
+        "foreign" : "בְּגָדִים",
+        "image" : "clothes",
+        "level" : 1,
+        "mistake" : 5,
+        "original" : "одежда",
+        "simple" : "бгадим"
+      },
+      "coffee" : {
+        "date" : -6,
+        "foreign" : "קָפֶה",
+        "image" : "coffee",
+        "level" : 2,
+        "mistake" : 7,
+        "original" : "кофе",
+        "simple" : "кафэ"
+      },
+      "cold" : {
+        "date" : -1,
+        "foreign" : "קַר",
+        "image" : "cold",
+        "level" : 1,
+        "mistake" : 5,
+        "original" : "холодный",
+        "simple" : "кар"
+      },
+      "come3" : {
+        "date" : -6,
+        "foreign" : "לָבוׂא",
+        "image" : "come3",
+        "level" : 1,
+        "mistake" : 6,
+        "original" : "прийти, приехать",
+        "simple" : "лаво"
+      },
+      "come_here" : {
+        "date" : 9,
+        "foreign" : "אֶלַי",
+        "image" : "come_here",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "ко мне",
+        "simple" : "элай"
+      },
+      "come_here2" : {
+        "date" : 27,
+        "foreign" : "בּוֹא",
+        "image" : "come_here2",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "подойди! приходи! (м.р.)",
+        "simple" : "бо"
+      },
+      "correct" : {
+        "date" : 25,
+        "foreign" : "נָכוֹן",
+        "image" : "correct",
+        "level" : 5,
+        "mistake" : 8,
+        "original" : "правильно, верно",
+        "simple" : "нахон"
+      },
+      "country" : {
+        "date" : 1,
+        "foreign" : "אֶרֶץ",
+        "image" : "country",
+        "level" : 3,
+        "mistake" : 1,
+        "original" : "страна",
+        "simple" : "э́рэц (ж.)"
+      },
+      "country2" : {
+        "date" : -1,
+        "foreign" : "אֲרָצוׂת",
+        "image" : "country2",
+        "level" : 2,
+        "mistake" : 3,
+        "original" : "страна",
+        "simple" : "э́рэц (ж.)"
+      },
+      "daughter" : {
+        "date" : 87,
+        "foreign" : "בַּת",
+        "image" : "daughter",
+        "level" : 6,
+        "mistake" : 6,
+        "original" : "дочь, девочка"
+      },
+      "day1" : {
+        "date" : 8,
+        "foreign" : "יוֹם",
+        "image" : "day1",
+        "level" : 5,
+        "mistake" : 1,
+        "original" : "день(1)",
+        "simple" : "йом"
+      },
+      "day2" : {
+        "date" : 12,
+        "foreign" : "יָמִים",
+        "image" : "day2",
+        "level" : 5,
+        "mistake" : 9,
+        "original" : "день(2)",
+        "simple" : "йамим"
+      },
+      "drink2" : {
+        "date" : 0,
+        "foreign" : "נִשְתֶּה",
+        "image" : "drink2",
+        "level" : 3,
+        "mistake" : 11,
+        "original" : "выпьем",
+        "simple" : "ништэ"
+      },
+      "eat_with_we" : {
+        "date" : -26,
+        "foreign" : "תֹּאכַל אִתַּנוּ",
+        "image" : "eat_with_we",
+        "level" : 2,
+        "mistake" : 30,
+        "original" : "Вы будете с нами кушать?",
+        "simple" : "тохал ита́ну?"
+      },
+      "edge" : {
+        "date" : -1,
+        "foreign" : "בִקְצֵה",
+        "image" : "edge",
+        "level" : 1,
+        "mistake" : 1,
+        "original" : "край",
+        "simple" : "бикце"
+      },
+      "eight" : {
+        "date" : 23,
+        "foreign" : "שמוֹנֶה",
+        "image" : "eight",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "восемь",
+        "simple" : "шмонэ"
+      },
+      "eleven_m" : {
+        "date" : 0,
+        "foreign" : "אַחַד עָשָׂר",
+        "image" : "eleven_m",
+        "level" : 2,
+        "mistake" : 15,
+        "original" : "одиннадцать  (М)",
+        "simple" : "Аха́д аса́р"
+      },
+      "eleven_w" : {
+        "date" : -1,
+        "foreign" : "אַחַת עֵשׂרֶא",
+        "image" : "eleven_w",
+        "level" : 3,
+        "mistake" : 9,
+        "original" : "одиннадцать (Ж)",
+        "simple" : "Аха́т эсрэ́"
+      },
+      "enter" : {
+        "date" : -3,
+        "foreign" : "תִּכָּנֵס",
+        "image" : "enter",
+        "level" : 2,
+        "mistake" : 6,
+        "original" : "входи, заходи",
+        "simple" : "тиканэс"
+      },
+      "eve_shabat" : {
+        "date" : 0,
+        "foreign" : "עֶרֶב שַבָּת",
+        "image" : "eve_shabat",
+        "level" : 3,
+        "mistake" : 4,
+        "original" : "вечер пятницы, канун шабата",
+        "simple" : "э́рэв шабат"
+      },
+      "evening" : {
+        "date" : 0,
+        "foreign" : "עֶרֶב",
+        "image" : "evening",
+        "level" : 4,
+        "mistake" : 15,
+        "original" : "вечер",
+        "simple" : "сэ́рэв"
+      },
+      "expensive" : {
+        "date" : 87,
+        "foreign" : "יָקָר",
+        "image" : "expensive",
+        "level" : 6,
+        "mistake" : 2,
+        "original" : "дорогой",
+        "simple" : "йакар"
+      },
+      "face" : {
+        "date" : -1,
+        "foreign" : "הַחוֹטַם",
+        "image" : "face",
+        "level" : 1,
+        "mistake" : 1,
+        "original" : "лицо",
+        "simple" : "ахотем"
+      },
+      "family" : {
+        "date" : 5,
+        "foreign" : "מִשְפָּחָה",
+        "image" : "family",
+        "level" : 4,
+        "mistake" : 9,
+        "original" : "семья",
+        "simple" : "мишпах̣а"
+      },
+      "father" : {
+        "date" : 82,
+        "foreign" : "אַבָּא",
+        "image" : "father",
+        "level" : 6,
+        "mistake" : 2,
+        "original" : "отец, папа"
+      },
+      "finger" : {
+        "date" : 0,
+        "foreign" : "אֵצְבַּעוֹת",
+        "image" : "finger",
+        "level" : 1,
+        "mistake" : 5,
+        "original" : "пальцы",
+        "simple" : "ецбаот"
+      },
+      "five_m" : {
+        "date" : -5,
+        "foreign" : "חָמִשָה",
+        "image" : "five_m",
+        "level" : 1,
+        "mistake" : 12,
+        "original" : "пять (М)",
+        "simple" : "Хамиша́"
+      },
+      "five_w" : {
+        "date" : 4,
+        "foreign" : "חָמֵשׁ",
+        "image" : "five_w",
+        "level" : 4,
+        "mistake" : 11,
+        "original" : "пять (Ж)",
+        "simple" : "Хамэ́ш"
+      },
+      "five_women" : {
+        "date" : 21,
+        "foreign" : "חָמֵש",
+        "image" : "five_women",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "пять (ж.р.)",
+        "simple" : "х̣амэш"
+      },
+      "food" : {
+        "date" : 4,
+        "foreign" : "אׂכֶל",
+        "image" : "food",
+        "level" : 4,
+        "mistake" : 17,
+        "original" : "еда, пища",
+        "simple" : "о́хэл"
+      },
+      "food1" : {
+        "date" : 1,
+        "foreign" : "אׂכֶל",
+        "image" : "food1",
+        "level" : 3,
+        "mistake" : 2,
+        "original" : "еда, пища (1)",
+        "simple" : "о́хэл"
+      },
+      "food2" : {
+        "date" : 3,
+        "foreign" : "אוׂכֶל",
+        "image" : "food2",
+        "level" : 4,
+        "mistake" : 5,
+        "original" : "еда, пища (2)",
+        "simple" : "о́хэл"
+      },
+      "four_m" : {
+        "date" : 4,
+        "foreign" : "אַרְבַּעָה",
+        "image" : "four_m",
+        "level" : 4,
+        "mistake" : 11,
+        "original" : "четыре (М)",
+        "simple" : "Арбаа́"
+      },
+      "four_w" : {
+        "date" : -2,
+        "foreign" : "אַרְבַּע",
+        "image" : "four_w",
+        "level" : 2,
+        "mistake" : 10,
+        "original" : "четыре (Ж)",
+        "simple" : "А́рба"
+      },
+      "friend" : {
+        "date" : 22,
+        "foreign" : "חָבֵר",
+        "image" : "friend",
+        "level" : 5,
+        "mistake" : 0,
+        "original" : "друг",
+        "simple" : "х̣авер"
+      },
+      "friends" : {
+        "date" : 3,
+        "foreign" : "חֲבֵרִים",
+        "image" : "friends",
+        "level" : 4,
+        "mistake" : 0,
+        "original" : "друзья",
+        "simple" : "х̣аверим"
+      },
+      "from" : {
+        "date" : 29,
+        "foreign" : "מִן",
+        "image" : "from",
+        "level" : 5,
+        "mistake" : 14,
+        "original" : "из, от (1-й)"
+      },
+      "from1" : {
+        "date" : 88,
+        "foreign" : "מִ",
+        "image" : "from1",
+        "level" : 6,
+        "mistake" : 6,
+        "original" : "из, от (2-й)"
+      },
+      "from2" : {
+        "date" : 0,
+        "foreign" : "מֵ",
+        "image" : "from2",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "из, от (3-й)"
+      },
+      "garden" : {
+        "date" : 0,
+        "foreign" : "גַן",
+        "image" : "garden",
+        "level" : 5,
+        "mistake" : 0,
+        "original" : "сад",
+        "simple" : "ган"
+      },
+      "girls" : {
+        "date" : 86,
+        "foreign" : "בָּנוֹת",
+        "image" : "girls",
+        "level" : 6,
+        "mistake" : 6,
+        "original" : "дочери, девочки"
+      },
+      "glad_to_see_you" : {
+        "date" : -2,
+        "foreign" : "בְּרוּכים הַנִמְצָאִים",
+        "image" : "glad_to_see_you",
+        "level" : 2,
+        "mistake" : 14,
+        "original" : "рад вас видеть",
+        "simple" : "брух̣им ẋа-нимцаим"
+      },
+      "glasses" : {
+        "date" : 8,
+        "foreign" : "הֵן",
+        "image" : "glasses",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "они (ж.р.)"
+      },
+      "go_out" : {
+        "date" : -3,
+        "foreign" : "לָצֵאת",
+        "image" : "go_out",
+        "level" : 2,
+        "mistake" : 4,
+        "original" : "выходить",
+        "simple" : "лацэт"
+      },
+      "good" : {
+        "date" : -1,
+        "foreign" : "טוֹב",
+        "image" : "good",
+        "level" : 5,
+        "mistake" : 0,
+        "original" : "хороший, хорошо, ладно",
+        "simple" : "тов"
+      },
+      "good_bye" : {
+        "date" : 0,
+        "foreign" : "לְהִתְרָאוֹת",
+        "image" : "good_bye",
+        "level" : 2,
+        "mistake" : 39,
+        "original" : "до свидания, пока!",
+        "simple" : "лэ-ẋитраот!"
+      },
+      "good_morning" : {
+        "date" : 9,
+        "foreign" : "בּוֹקֶר טוֹב",
+        "image" : "good_morning",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "доброе утро",
+        "simple" : "бо́кэр тов"
+      },
+      "good_morning_answer" : {
+        "date" : 23,
+        "foreign" : "בּוֹקֶר אוֹר",
+        "image" : "good_morning_answer",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "доброе утро(ответ)",
+        "simple" : "бо́кер ор"
+      },
+      "guest" : {
+        "date" : 2,
+        "foreign" : "אוֹרֵחַ",
+        "image" : "guest",
+        "level" : 3,
+        "mistake" : 18,
+        "original" : "гость, посетитель",
+        "simple" : "орэ́ах̣"
+      },
+      "guests" : {
+        "date" : 6,
+        "foreign" : "אוֹרְחִים",
+        "image" : "guests",
+        "level" : 4,
+        "mistake" : 18,
+        "original" : "гости, посетители",
+        "simple" : "мн.ч. - орх̣им"
+      },
+      "haifa" : {
+        "date" : 26,
+        "foreign" : "חיפה",
+        "image" : "haifa",
+        "level" : 5,
+        "mistake" : 8,
+        "original" : "Хайфа",
+        "simple" : ""
+      },
+      "half" : {
+        "date" : -1,
+        "foreign" : "חֵצִי",
+        "image" : "half",
+        "level" : 4,
+        "mistake" : 14,
+        "original" : "половина",
+        "simple" : "х̣е́ци"
+      },
+      "half2" : {
+        "date" : 0,
+        "foreign" : "חֲצִי",
+        "image" : "half2",
+        "level" : 4,
+        "mistake" : 7,
+        "original" : "пол...",
+        "simple" : "х̣аци..."
+      },
+      "handshake" : {
+        "date" : 0,
+        "foreign" : "שָלוֹם",
+        "image" : "handshake",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "мир; здравствуйте,до свидания"
+      },
+      "have" : {
+        "date" : 0,
+        "foreign" : "יֶש",
+        "image" : "have",
+        "level" : 3,
+        "mistake" : 3,
+        "original" : "здесь(имею)",
+        "simple" : "еш"
+      },
+      "have_not" : {
+        "date" : -5,
+        "foreign" : "אֵין",
+        "image" : "have_not",
+        "level" : 1,
+        "mistake" : 1,
+        "original" : "нету",
+        "simple" : "ейн"
+      },
+      "he" : {
+        "date" : 82,
+        "foreign" : "הוּא",
+        "image" : "he",
+        "level" : 6,
+        "mistake" : 5,
+        "original" : "он"
+      },
+      "he_come" : {
+        "date" : -13,
+        "foreign" : "הוּא בָּא",
+        "image" : "he_come",
+        "level" : 3,
+        "mistake" : 14,
+        "original" : "он приходит, приезжает он пришел, приехал",
+        "simple" : "ẋу ба"
+      },
+      "he_returnd" : {
+        "date" : -17,
+        "foreign" : "חָזַר",
+        "image" : "he_returnd",
+        "level" : 1,
+        "mistake" : 7,
+        "original" : "он вернулся",
+        "simple" : "х̣азар"
+      },
+      "hear" : {
+        "date" : -5,
+        "foreign" : "לִשְמוׂעַ",
+        "image" : "hear",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "слышать, слушать",
+        "simple" : "лишмоас"
+      },
+      "hebrew" : {
+        "date" : -1,
+        "foreign" : "עִבְרִית",
+        "image" : "hebrew",
+        "level" : 2,
+        "mistake" : 17,
+        "original" : "иврит",
+        "simple" : "иврит"
+      },
+      "her" : {
+        "date" : 8,
+        "foreign" : "שֶלָהּ",
+        "image" : "her",
+        "level" : 5,
+        "mistake" : 26,
+        "original" : "её"
+      },
+      "here" : {
+        "date" : 2,
+        "foreign" : "כָּאן",
+        "image" : "here",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "здесь",
+        "simple" : "кан"
+      },
+      "here2" : {
+        "date" : 29,
+        "foreign" : "הִנֵה",
+        "image" : "here2",
+        "level" : 5,
+        "mistake" : 11,
+        "original" : "вот, здесь",
+        "simple" : "ẋинэ"
+      },
+      "hir_room" : {
+        "date" : 0,
+        "foreign" : "חַדרוֹ",
+        "image" : "hir_room",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "его комната",
+        "simple" : "х̣адро"
+      },
+      "his_wife" : {
+        "date" : 0,
+        "foreign" : "אִשְתּוֹ",
+        "image" : "his_wife",
+        "level" : 2,
+        "mistake" : 16,
+        "original" : "его жена"
+      },
+      "hot" : {
+        "date" : -5,
+        "foreign" : "חַם",
+        "image" : "hot",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "горячий",
+        "simple" : "хам"
+      },
+      "hotel" : {
+        "date" : 0,
+        "foreign" : "מָלוֹן",
+        "image" : "hotel",
+        "level" : 5,
+        "mistake" : 1,
+        "original" : "гостиница, отель",
+        "simple" : "малон"
+      },
+      "house" : {
+        "date" : 89,
+        "foreign" : "בַּיִת",
+        "image" : "house",
+        "level" : 6,
+        "mistake" : 6,
+        "original" : "дом"
+      },
+      "how" : {
+        "date" : 11,
+        "foreign" : "אֵיךְ",
+        "image" : "how",
+        "level" : 5,
+        "mistake" : 10,
+        "original" : "как?",
+        "simple" : "эйх?"
+      },
+      "how_are_you" : {
+        "date" : 5,
+        "foreign" : "מַה שְלוֹמְךָ",
+        "image" : "how_are_you",
+        "level" : 4,
+        "mistake" : 22,
+        "original" : "как поживаете (м.р.)?",
+        "simple" : "ма шломха?"
+      },
+      "how_many" : {
+        "date" : 13,
+        "foreign" : "כַּמָה",
+        "image" : "how_many",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "сколько?",
+        "simple" : "кама?"
+      },
+      "how_old" : {
+        "date" : -3,
+        "foreign" : "בֶּן כַּמָה אַתָּה",
+        "image" : "how_old",
+        "level" : 2,
+        "mistake" : 11,
+        "original" : "сколько тебе лет? (к м.р.)",
+        "simple" : "бен кама ата?"
+      },
+      "however" : {
+        "date" : -1,
+        "foreign" : "אֲבָל",
+        "image" : "however",
+        "level" : 4,
+        "mistake" : 8,
+        "original" : "но, однако",
+        "simple" : "аваль"
+      },
+      "hurry" : {
+        "date" : 0,
+        "foreign" : "אֲנִי מְמַהֵר",
+        "image" : "hurry",
+        "level" : 4,
+        "mistake" : 26,
+        "original" : "я спешу",
+        "simple" : "ани мемаẋэр"
+      },
+      "i_am_hear" : {
+        "date" : 2,
+        "foreign" : "אֲנִי שוׂמֵעַ",
+        "image" : "i_am_hear",
+        "level" : 3,
+        "mistake" : 10,
+        "original" : "я слышу, я слушаю (м.)",
+        "simple" : "ани шомэас"
+      },
+      "i_am_late" : {
+        "date" : 1,
+        "foreign" : "מְחַכִּים לִי",
+        "image" : "i_am_late",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "меня ждут",
+        "simple" : "мэх̣аким ли"
+      },
+      "i_am_reading" : {
+        "date" : -5,
+        "foreign" : "אֲנִי קוׂרֵא",
+        "image" : "i_am_reading",
+        "level" : 2,
+        "mistake" : 6,
+        "original" : "я читаю",
+        "simple" : "ани корэ"
+      },
+      "i_am_standing" : {
+        "date" : 24,
+        "foreign" : "אֲנִי עוֹמֵד",
+        "image" : "i_am_standing",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "я стою (м.р.)",
+        "simple" : "ани сомэд"
+      },
+      "i_call" : {
+        "date" : -2,
+        "foreign" : "אֲנִי קוׂרֵא",
+        "image" : "i_call",
+        "level" : 2,
+        "mistake" : 3,
+        "original" : "я зову",
+        "simple" : "ани корэ лэ..."
+      },
+      "i_call_him" : {
+        "date" : 0,
+        "foreign" : "אֶקרָא לוֹ",
+        "image" : "i_call_him",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "я его позову",
+        "simple" : "экра ло"
+      },
+      "i_come" : {
+        "date" : -3,
+        "foreign" : "אֲנִי חוׂזֵר",
+        "image" : "i_come",
+        "level" : 1,
+        "mistake" : 4,
+        "original" : "я (м.) возвращаюсь",
+        "simple" : "ани х̣озэр"
+      },
+      "i_drink" : {
+        "date" : 22,
+        "foreign" : "אֲנִי שוֹתֶה",
+        "image" : "i_drink",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "я пью (м.р.)",
+        "simple" : "ани шотэ"
+      },
+      "i_drive" : {
+        "date" : 5,
+        "foreign" : "אֲנִי נוֹסֵעַ",
+        "image" : "i_drive",
+        "level" : 4,
+        "mistake" : 16,
+        "original" : "я еду",
+        "simple" : "ани носэас"
+      },
+      "i_eat" : {
+        "date" : -1,
+        "foreign" : "אֲנִי אוֹכֵל",
+        "image" : "i_eat",
+        "level" : 2,
+        "mistake" : 17,
+        "original" : "я ем (м.р.)",
+        "simple" : "ани охэл"
+      },
+      "i_give" : {
+        "date" : -2,
+        "foreign" : "אֲנִי נוֹתֵן",
+        "image" : "i_give",
+        "level" : 1,
+        "mistake" : 10,
+        "original" : "я даю",
+        "simple" : "ани нотэн"
+      },
+      "i_go" : {
+        "date" : -6,
+        "foreign" : "אֲנִי הוֹלֵךְ",
+        "image" : "i_go",
+        "level" : 2,
+        "mistake" : 26,
+        "original" : "я иду (м.р.)",
+        "simple" : "ани ẋолэх"
+      },
+      "i_go_out" : {
+        "date" : 0,
+        "foreign" : "אֲנִי יוׂצֵא",
+        "image" : "i_go_out",
+        "level" : 0,
+        "mistake" : 10,
+        "original" : "я выхожу",
+        "simple" : "ани йоцэ"
+      },
+      "i_have" : {
+        "date" : 0,
+        "foreign" : "ישֵ לִי",
+        "image" : "i_have",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "у меня есть (я имею)",
+        "simple" : "йэш ли"
+      },
+      "i_help" : {
+        "date" : -3,
+        "foreign" : "אֲנִי עוֹזֵר",
+        "image" : "i_help",
+        "level" : 1,
+        "mistake" : 11,
+        "original" : "я помогаю",
+        "simple" : "ани созэр"
+      },
+      "i_know" : {
+        "date" : 21,
+        "foreign" : "אֲנִי יוֹדֵעַ",
+        "image" : "i_know",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "я знаю (м.р.)",
+        "simple" : "ани йодэ́а"
+      },
+      "i_know2" : {
+        "date" : -5,
+        "foreign" : "אֲנִי יוׂדֵעַ",
+        "image" : "i_know2",
+        "level" : 2,
+        "mistake" : 4,
+        "original" : "я знаю",
+        "simple" : "ани йодэ́ас"
+      },
+      "i_must" : {
+        "date" : 0,
+        "foreign" : "אֲנִי צָרִיךְ",
+        "image" : "i_must",
+        "level" : 3,
+        "mistake" : 4,
+        "original" : "мне нужно (м.), я должен",
+        "simple" : "ани царих"
+      },
+      "i_relax" : {
+        "date" : -26,
+        "foreign" : "אֲנִי נָח",
+        "image" : "i_relax",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "я отдыхаю",
+        "simple" : "ани нах̣"
+      },
+      "i_sleep" : {
+        "date" : -1,
+        "foreign" : "אֲנִי יָשֵן",
+        "image" : "i_sleep",
+        "level" : 3,
+        "mistake" : 5,
+        "original" : "я сплю",
+        "simple" : "ани яшэн"
+      },
+      "i_speak" : {
+        "date" : 27,
+        "foreign" : "אֲנִי אוֹמֵר",
+        "image" : "i_speak",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "я говорю",
+        "simple" : "ани омэр"
+      },
+      "i_take" : {
+        "date" : -6,
+        "foreign" : "אֲנִי לוׂקֵחַ",
+        "image" : "i_take",
+        "level" : 1,
+        "mistake" : 7,
+        "original" : "я беру",
+        "simple" : "ани локэ́ах̣"
+      },
+      "i_want" : {
+        "date" : 0,
+        "foreign" : "אֲנִי רוׂצֶה",
+        "image" : "i_want",
+        "level" : 2,
+        "mistake" : 3,
+        "original" : "я хочу, я желаю (м.)",
+        "simple" : "ани роцэ"
+      },
+      "i_was" : {
+        "date" : -20,
+        "foreign" : "הָיִיתִי",
+        "image" : "i_was",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "я был, была",
+        "simple" : "ẋайи́ти"
+      },
+      "i_work" : {
+        "date" : 11,
+        "foreign" : "אֲנִי עוֹבֵד",
+        "image" : "i_work",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "я работаю",
+        "simple" : "ани совэд"
+      },
+      "in" : {
+        "date" : 85,
+        "foreign" : "בְּ",
+        "image" : "in",
+        "level" : 6,
+        "mistake" : 4,
+        "original" : "в"
+      },
+      "in_house" : {
+        "date" : 85,
+        "foreign" : "בַּבַּיִת",
+        "image" : "in_house",
+        "level" : 6,
+        "mistake" : 4,
+        "original" : "дома"
+      },
+      "in_one" : {
+        "date" : -26,
+        "foreign" : "בְּשָעָה אַחַת",
+        "image" : "in_one",
+        "level" : 2,
+        "mistake" : 13,
+        "original" : "в час (в 13.00)",
+        "simple" : "бэ-шаса ах̣ат"
+      },
+      "interesting" : {
+        "date" : -4,
+        "foreign" : "מִעַנְיִיִן",
+        "image" : "interesting",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "интересно (ед. м.р.)",
+        "simple" : "мианин"
+      },
+      "into_it" : {
+        "date" : 0,
+        "foreign" : "בּוֹ",
+        "image" : "into_it",
+        "level" : 1,
+        "mistake" : 1,
+        "original" : "в нем",
+        "simple" : "бо"
+      },
+      "jerusalem" : {
+        "date" : 8,
+        "foreign" : "יְרוּשָלַיִם",
+        "image" : "jerusalem",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "Иерусалим",
+        "simple" : "Йэрушала́йим"
+      },
+      "kitchen" : {
+        "date" : -5,
+        "foreign" : "מִטְבָּח",
+        "image" : "kitchen",
+        "level" : 1,
+        "mistake" : 5,
+        "original" : "кухня",
+        "simple" : "митбах̣"
+      },
+      "know" : {
+        "date" : -1,
+        "foreign" : "לָדַעַת",
+        "image" : "know",
+        "level" : 2,
+        "mistake" : 8,
+        "original" : "знать",
+        "simple" : "лада́сат"
+      },
+      "lesson" : {
+        "date" : -2,
+        "foreign" : "שיעוּר",
+        "image" : "lesson",
+        "level" : 1,
+        "mistake" : 7,
+        "original" : "урок",
+        "simple" : "шиур"
+      },
+      "let_go" : {
+        "date" : 25,
+        "foreign" : "בּוֹא נֵלֵך",
+        "image" : "let_go",
+        "level" : 5,
+        "mistake" : 8,
+        "original" : "давай пойдём!",
+        "simple" : "бо нэлэх!"
+      },
+      "lord" : {
+        "date" : 89,
+        "foreign" : "מַר",
+        "image" : "lord",
+        "level" : 6,
+        "mistake" : 1,
+        "original" : "господин",
+        "simple" : "мар"
+      },
+      "luck" : {
+        "date" : -1,
+        "foreign" : "בְּהַצְלָחָה",
+        "image" : "luck",
+        "level" : 2,
+        "mistake" : 15,
+        "original" : "успеха!",
+        "simple" : "бэ-ẋацлах̣а"
+      },
+      "lunch" : {
+        "date" : 0,
+        "foreign" : "אֲרוּחַת צָהֳרַיִם",
+        "image" : "lunch",
+        "level" : 0,
+        "mistake" : 25,
+        "original" : "обед",
+        "simple" : "арух̣ат цоẋора́йим"
+      },
+      "many1" : {
+        "date" : 0,
+        "foreign" : "הַרְבֵּה",
+        "image" : "many1",
+        "level" : 2,
+        "mistake" : 14,
+        "original" : "много (1)",
+        "simple" : "ẋарбэ"
+      },
+      "many2" : {
+        "date" : 25,
+        "foreign" : "רַבִּים",
+        "image" : "many2",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "много (2)",
+        "simple" : "рабим"
+      },
+      "many_thanks" : {
+        "date" : 0,
+        "foreign" : "תּוֹדָה רַבָּה",
+        "image" : "many_thanks",
+        "level" : 4,
+        "mistake" : 17,
+        "original" : "большое спасибо!",
+        "simple" : "тода раба!"
+      },
+      "married" : {
+        "date" : -1,
+        "foreign" : "נְשׂוּאָה",
+        "image" : "married",
+        "level" : 2,
+        "mistake" : 16,
+        "original" : "замужняя",
+        "simple" : "несуа"
+      },
+      "men_come" : {
+        "date" : 0,
+        "foreign" : "בָּאתָ",
+        "image" : "men_come",
+        "level" : 5,
+        "mistake" : 14,
+        "original" : "ты (м.р.) пришел, приехал",
+        "simple" : "ба́та"
+      },
+      "merrids" : {
+        "date" : 3,
+        "foreign" : "נְשׂוּאוֹת",
+        "image" : "merrids",
+        "level" : 4,
+        "mistake" : 15,
+        "original" : "замужние",
+        "simple" : "несуот"
+      },
+      "merried_men" : {
+        "date" : 21,
+        "foreign" : "נָשׂוּי",
+        "image" : "merried_men",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "женатый",
+        "simple" : "насуй"
+      },
+      "minute" : {
+        "date" : 0,
+        "foreign" : "דַקָה",
+        "image" : "minute",
+        "level" : 4,
+        "mistake" : 5,
+        "original" : "минута",
+        "simple" : "дака"
+      },
+      "moment" : {
+        "date" : 2,
+        "foreign" : "רֶגַע",
+        "image" : "moment",
+        "level" : 3,
+        "mistake" : 4,
+        "original" : "момент",
+        "simple" : "рэ́гас"
+      },
+      "month" : {
+        "date" : -4,
+        "foreign" : "חֹדֶשׁ",
+        "image" : "month",
+        "level" : 1,
+        "mistake" : 7,
+        "original" : "месяц",
+        "simple" : "х̣о́дэш"
+      },
+      "months" : {
+        "date" : -6,
+        "foreign" : "חֳדָשִים",
+        "image" : "months",
+        "level" : 2,
+        "mistake" : 6,
+        "original" : "месяцы",
+        "simple" : "х̣одашим"
+      },
+      "morning" : {
+        "date" : 0,
+        "foreign" : "בּוֹקֶר",
+        "image" : "morning",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "утро",
+        "simple" : "бо́кер"
+      },
+      "mother" : {
+        "date" : 84,
+        "foreign" : "אִמָא",
+        "image" : "mother",
+        "level" : 6,
+        "mistake" : 3,
+        "original" : "мать, мама"
+      },
+      "my" : {
+        "date" : -26,
+        "foreign" : "שֶל",
+        "image" : "my",
+        "level" : 3,
+        "mistake" : 13,
+        "original" : "предлог принадлежности"
+      },
+      "my_uncle" : {
+        "date" : 0,
+        "foreign" : "דוֹדִי",
+        "image" : "my_uncle",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "мой дядя",
+        "simple" : "доди"
+      },
+      "my_wife" : {
+        "date" : 3,
+        "foreign" : "אִשְתִּי",
+        "image" : "my_wife",
+        "level" : 4,
+        "mistake" : 24,
+        "original" : "моя жена"
+      },
+      "name" : {
+        "date" : 0,
+        "foreign" : "שֵם",
+        "image" : "name",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "имя"
+      },
+      "need" : {
+        "date" : 0,
+        "foreign" : "צָרִיךְ",
+        "image" : "need",
+        "level" : 3,
+        "mistake" : 3,
+        "original" : "надо, нужно, следует",
+        "simple" : "царих"
+      },
+      "new" : {
+        "date" : 0,
+        "foreign" : "חָדָש",
+        "image" : "new",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "новый",
+        "simple" : "х̣адаш"
+      },
+      "news" : {
+        "date" : -4,
+        "foreign" : "חֲדָשוׂת",
+        "image" : "news",
+        "level" : 3,
+        "mistake" : 3,
+        "original" : "новости",
+        "simple" : "х̣адашот"
+      },
+      "nicely" : {
+        "date" : 0,
+        "foreign" : "נָעִים",
+        "image" : "nicely",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "приятный, приятно",
+        "simple" : "насим"
+      },
+      "night" : {
+        "date" : 0,
+        "foreign" : "לַיְלָה",
+        "image" : "night",
+        "level" : 3,
+        "mistake" : 7,
+        "original" : "ночь",
+        "simple" : "ла́йла"
+      },
+      "nine_m" : {
+        "date" : 0,
+        "foreign" : "תִּשַׁעָה",
+        "image" : "nine_m",
+        "level" : 0,
+        "mistake" : 15,
+        "original" : "девять (М)",
+        "simple" : "Тиш’а́"
+      },
+      "nine_w" : {
+        "date" : -4,
+        "foreign" : "תֵּשַע",
+        "image" : "nine_w",
+        "level" : 2,
+        "mistake" : 9,
+        "original" : "девять (Ж)",
+        "simple" : "Тэ́йша"
+      },
+      "no" : {
+        "date" : -1,
+        "foreign" : "לֹא",
+        "image" : "no",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "не, нет"
+      },
+      "noise" : {
+        "date" : 0,
+        "foreign" : "לִבכּוֹת",
+        "image" : "noise",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "крик",
+        "simple" : "ливкот"
+      },
+      "noise2" : {
+        "date" : 0,
+        "foreign" : "הוֹמוֹת",
+        "image" : "noise2",
+        "level" : 1,
+        "mistake" : 1,
+        "original" : "шуметь",
+        "simple" : "хомот"
+      },
+      "nose" : {
+        "date" : -1,
+        "foreign" : "אַף",
+        "image" : "nose",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "нос",
+        "simple" : "аф"
+      },
+      "of_course" : {
+        "date" : -1,
+        "foreign" : "בְּוַדַאי",
+        "image" : "of_course",
+        "level" : 2,
+        "mistake" : 6,
+        "original" : "конечно",
+        "simple" : "бэ-вадай"
+      },
+      "ok3" : {
+        "date" : 2,
+        "foreign" : "בְּסֵדֶר",
+        "image" : "ok3",
+        "level" : 3,
+        "mistake" : 9,
+        "original" : "о.к., хорошо, всё в порядке",
+        "simple" : "бэ-сэ́дэр"
+      },
+      "one" : {
+        "date" : 1,
+        "foreign" : "אַחַת",
+        "image" : "one",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "одна, один",
+        "simple" : "ах̣ат"
+      },
+      "one_hundred" : {
+        "date" : -6,
+        "foreign" : "מֵאָה",
+        "image" : "one_hundred",
+        "level" : 2,
+        "mistake" : 14,
+        "original" : "сто",
+        "simple" : "мэа"
+      },
+      "only" : {
+        "date" : 1,
+        "foreign" : "רַק",
+        "image" : "only",
+        "level" : 3,
+        "mistake" : 3,
+        "original" : "только",
+        "simple" : "рак"
+      },
+      "or" : {
+        "date" : 89,
+        "foreign" : "אוֹ",
+        "image" : "or",
+        "level" : 6,
+        "mistake" : 4,
+        "original" : "или",
+        "simple" : "о"
+      },
+      "over_there" : {
+        "date" : 4,
+        "foreign" : "שָם",
+        "image" : "over_there",
+        "level" : 4,
+        "mistake" : 4,
+        "original" : "там",
+        "simple" : "шам"
+      },
+      "pigeon" : {
+        "date" : 0,
+        "foreign" : "שוֹבַך",
+        "image" : "pigeon",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "голубь",
+        "simple" : "шобах"
+      },
+      "pinkie" : {
+        "date" : 0,
+        "foreign" : "זֶרֶת",
+        "image" : "pinkie",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "мизинец",
+        "simple" : "зерет"
+      },
+      "please" : {
+        "date" : 27,
+        "foreign" : "בְּבַקָשָה",
+        "image" : "please",
+        "level" : 5,
+        "mistake" : 10,
+        "original" : "пожалуйста",
+        "simple" : "бэ-вакаша"
+      },
+      "quater" : {
+        "date" : 2,
+        "foreign" : "רֶבַע",
+        "image" : "quater",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "четверть",
+        "simple" : "рэ́ва"
+      },
+      "ready" : {
+        "date" : 2,
+        "foreign" : "מוּכָן",
+        "image" : "ready",
+        "level" : 4,
+        "mistake" : 3,
+        "original" : "готовый, приготовленный",
+        "simple" : "мухан"
+      },
+      "same" : {
+        "date" : 0,
+        "foreign" : "גַם",
+        "image" : "same",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "тоже, также",
+        "simple" : "гам"
+      },
+      "satisfied" : {
+        "date" : 2,
+        "foreign" : "מְרוּצֶה",
+        "image" : "satisfied",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "довольный",
+        "simple" : "мэруцэ"
+      },
+      "saturday" : {
+        "date" : 11,
+        "foreign" : "שַבָּת",
+        "image" : "saturday",
+        "level" : 5,
+        "mistake" : 1,
+        "original" : "суббота, шабат",
+        "simple" : "шабат"
+      },
+      "say_hello" : {
+        "date" : -2,
+        "foreign" : "דְרִישַת שָלוׂם",
+        "image" : "say_hello",
+        "level" : 1,
+        "mistake" : 10,
+        "original" : "(передай) привет",
+        "simple" : "дришат шалом лэ..."
+      },
+      "servant" : {
+        "date" : 9,
+        "foreign" : "עוֹבֵד",
+        "image" : "servant",
+        "level" : 5,
+        "mistake" : 8,
+        "original" : "работник, служащий",
+        "simple" : "совэд"
+      },
+      "seven_m" : {
+        "date" : -3,
+        "foreign" : "שִׁבַעָה",
+        "image" : "seven_m",
+        "level" : 3,
+        "mistake" : 13,
+        "original" : "семь (М)",
+        "simple" : "Шив’а́"
+      },
+      "seven_w" : {
+        "date" : -2,
+        "foreign" : "שֶבַע",
+        "image" : "seven_w",
+        "level" : 1,
+        "mistake" : 11,
+        "original" : "семь (Ж)",
+        "simple" : "шэ́вас"
+      },
+      "several" : {
+        "date" : -3,
+        "foreign" : "כַּמָה",
+        "image" : "several",
+        "level" : 3,
+        "mistake" : 2,
+        "original" : "несколько",
+        "simple" : "кама"
+      },
+      "she" : {
+        "date" : -1,
+        "foreign" : "הִיא",
+        "image" : "she",
+        "level" : 5,
+        "mistake" : 9,
+        "original" : "она"
+      },
+      "she_has" : {
+        "date" : 0,
+        "foreign" : "ישֵ לָה",
+        "image" : "she_has",
+        "level" : 4,
+        "mistake" : 16,
+        "original" : "у неё есть (она имеет)",
+        "simple" : "йэш ла"
+      },
+      "she_is_clerk" : {
+        "date" : 1,
+        "foreign" : "פקידה",
+        "image" : "she_is_clerk",
+        "level" : 5,
+        "mistake" : 6,
+        "original" : "клерк (ж.р.), чиновница",
+        "simple" : "пкида"
+      },
+      "sister" : {
+        "date" : 0,
+        "foreign" : "אָחוֹת",
+        "image" : "sister",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "сестра"
+      },
+      "sisters" : {
+        "date" : 2,
+        "foreign" : "אֲחָיוֹת",
+        "image" : "sisters",
+        "level" : 5,
+        "mistake" : 10,
+        "original" : "сестры"
+      },
+      "sit" : {
+        "date" : 1,
+        "foreign" : "לָשֶבֶת",
+        "image" : "sit",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "сидеть, сесть",
+        "simple" : "лашэ́вэт"
+      },
+      "sit_down" : {
+        "date" : -4,
+        "foreign" : "שֵב",
+        "image" : "sit_down",
+        "level" : 3,
+        "mistake" : 7,
+        "original" : "садись (к м.р.)",
+        "simple" : "шэв"
+      },
+      "six_m" : {
+        "date" : -7,
+        "foreign" : "שִׁשָהׁ",
+        "image" : "six_m",
+        "level" : 2,
+        "mistake" : 8,
+        "original" : "шесть (М)",
+        "simple" : "Шиша́"
+      },
+      "six_w" : {
+        "date" : 11,
+        "foreign" : "שֵש",
+        "image" : "six_w",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "шесть (Ж)",
+        "simple" : "шэш"
+      },
+      "sleep" : {
+        "date" : -6,
+        "foreign" : "לִישוׂן",
+        "image" : "sleep",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "спать",
+        "simple" : "лишон"
+      },
+      "small" : {
+        "date" : 23,
+        "foreign" : "קָטָן",
+        "image" : "small",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "маленький",
+        "simple" : "катан"
+      },
+      "some_times" : {
+        "date" : 2,
+        "foreign" : "לִפְעָמִים",
+        "image" : "some_times",
+        "level" : 4,
+        "mistake" : 5,
+        "original" : "иногда",
+        "simple" : "лиф самим"
+      },
+      "sorry" : {
+        "date" : 0,
+        "foreign" : "סְלִיחָה",
+        "image" : "sorry",
+        "level" : 4,
+        "mistake" : 10,
+        "original" : "простите, извините",
+        "simple" : "слих̣а"
+      },
+      "stand" : {
+        "date" : 1,
+        "foreign" : "לָקוּם",
+        "image" : "stand",
+        "level" : 3,
+        "mistake" : 5,
+        "original" : "вставать",
+        "simple" : "лакум"
+      },
+      "student" : {
+        "date" : 0,
+        "foreign" : "תַּלְמִיד",
+        "image" : "student",
+        "level" : 4,
+        "mistake" : 8,
+        "original" : "ученик, студент",
+        "simple" : "тальмид"
+      },
+      "sunday" : {
+        "date" : 9,
+        "foreign" : "יוֹם רִאשוֹן",
+        "image" : "sunday",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "воскресенье",
+        "simple" : "йом ришон"
+      },
+      "table" : {
+        "date" : -1,
+        "foreign" : "שוּלחַן",
+        "image" : "table",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "таблица",
+        "simple" : "шулхан"
+      },
+      "take" : {
+        "date" : 0,
+        "foreign" : "לָקַחַת",
+        "image" : "take",
+        "level" : 2,
+        "mistake" : 7,
+        "original" : "брать, взять",
+        "simple" : "лака́х̣ат"
+      },
+      "talk" : {
+        "date" : 0,
+        "foreign" : "לֶקָשקֶש",
+        "image" : "talk",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "болтать",
+        "simple" : "лекашкеш"
+      },
+      "tea" : {
+        "date" : 9,
+        "foreign" : "תֵּה",
+        "image" : "tea",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "чай",
+        "simple" : "тэй"
+      },
+      "teacher" : {
+        "date" : 2,
+        "foreign" : "מוֹרָה",
+        "image" : "teacher",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "учительница",
+        "simple" : "мора"
+      },
+      "tell" : {
+        "date" : -1,
+        "foreign" : "דַבַר",
+        "image" : "tell",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "говорить",
+        "simple" : "давар"
+      },
+      "ten_m" : {
+        "date" : -1,
+        "foreign" : "עֲשָׂרָה",
+        "image" : "ten_m",
+        "level" : 2,
+        "mistake" : 18,
+        "original" : "десять (М)",
+        "simple" : "Асара́"
+      },
+      "ten_w" : {
+        "date" : -2,
+        "foreign" : "עֶשֶׂר",
+        "image" : "ten_w",
+        "level" : 2,
+        "mistake" : 15,
+        "original" : "десять (Ж)",
+        "simple" : "э́сэр"
+      },
+      "thank_you" : {
+        "date" : 23,
+        "foreign" : "תוֹדָה",
+        "image" : "thank_you",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "спасибо",
+        "simple" : "тода"
+      },
+      "they_have" : {
+        "date" : 23,
+        "foreign" : "יֵש לָכֶם",
+        "image" : "they_have",
+        "level" : 5,
+        "mistake" : 11,
+        "original" : "у вас (мн.ч. м.р.) есть",
+        "simple" : "йэш лахэм"
+      },
+      "they_were" : {
+        "date" : 0,
+        "foreign" : "הָיוּ",
+        "image" : "they_were",
+        "level" : 2,
+        "mistake" : 9,
+        "original" : "они были",
+        "simple" : "ẋайу"
+      },
+      "they_works" : {
+        "date" : -25,
+        "foreign" : "הֵן עוֹבְדוֹת",
+        "image" : "they_works",
+        "level" : 4,
+        "mistake" : 14,
+        "original" : "они (ж.р.) работают",
+        "simple" : "ẋэн совдот"
+      },
+      "this_man" : {
+        "date" : 85,
+        "foreign" : "זֶה",
+        "image" : "this_man",
+        "level" : 6,
+        "mistake" : 2,
+        "original" : "это (к м.р.)"
+      },
+      "this_she" : {
+        "date" : -2,
+        "foreign" : "זֹאת",
+        "image" : "this_she",
+        "level" : 2,
+        "mistake" : 15,
+        "original" : "это (к ж.р.)"
+      },
+      "thousand" : {
+        "date" : 21,
+        "foreign" : "אֶלֶף",
+        "image" : "thousand",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "тысяча",
+        "simple" : "Э́леф"
+      },
+      "three_m" : {
+        "date" : 1,
+        "foreign" : "שְׁלוֹשָׁה",
+        "image" : "three_m",
+        "level" : 3,
+        "mistake" : 18,
+        "original" : "три (М)",
+        "simple" : "Шлоша́"
+      },
+      "three_w" : {
+        "date" : 3,
+        "foreign" : "שָׁלוֹשׁ",
+        "image" : "three_w",
+        "level" : 4,
+        "mistake" : 8,
+        "original" : "три (Ж)",
+        "simple" : "Шало́ш"
+      },
+      "thumb" : {
+        "date" : 0,
+        "foreign" : "בוֹהֵן",
+        "image" : "thumb",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "большой палец",
+        "simple" : "боен"
+      },
+      "time" : {
+        "date" : 0,
+        "foreign" : "זְמַן",
+        "image" : "time",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "время",
+        "simple" : "зман"
+      },
+      "to1" : {
+        "date" : 12,
+        "foreign" : "אֶל",
+        "image" : "to1",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "к, в (направление)",
+        "simple" : "эл"
+      },
+      "to_home" : {
+        "date" : -23,
+        "foreign" : "הַבַּיְתָה",
+        "image" : "to_home",
+        "level" : 4,
+        "mistake" : 9,
+        "original" : "домой",
+        "simple" : "ẋа-ба́йта"
+      },
+      "today" : {
+        "date" : 2,
+        "foreign" : "הַיוֹם",
+        "image" : "today",
+        "level" : 3,
+        "mistake" : 6,
+        "original" : "сегодня",
+        "simple" : "ẋайом"
+      },
+      "tomorrow" : {
+        "date" : 1,
+        "foreign" : "מָחָר",
+        "image" : "tomorrow",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "завтра",
+        "simple" : "мах̣ар"
+      },
+      "turkish" : {
+        "date" : 22,
+        "foreign" : "תוּרכִּי",
+        "image" : "turkish",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "турецкий",
+        "simple" : "турки"
+      },
+      "twelve_m" : {
+        "date" : -3,
+        "foreign" : "שנֵים עָשָׂר",
+        "image" : "twelve_m",
+        "level" : 1,
+        "mistake" : 23,
+        "original" : "двеннадцать  (М)",
+        "simple" : "Шнэ́йм аса́р"
+      },
+      "twelve_w" : {
+        "date" : -6,
+        "foreign" : "שְׁתֵיים עֶשׂרֵא",
+        "image" : "twelve_w",
+        "level" : 2,
+        "mistake" : 17,
+        "original" : "двеннадцать (Ж)",
+        "simple" : "Штэ́йм эсрэ́"
+      },
+      "twenty" : {
+        "date" : 0,
+        "foreign" : "עֶשְׂרִים",
+        "image" : "twenty",
+        "level" : 3,
+        "mistake" : 22,
+        "original" : "двадцать (20)",
+        "simple" : "сэсрим"
+      },
+      "twenty_years" : {
+        "date" : -7,
+        "foreign" : "הִיא בַּת עֶשְֹרִים",
+        "image" : "twenty_years",
+        "level" : 1,
+        "mistake" : 30,
+        "original" : "ей двадцать лет",
+        "simple" : "хи бат эсрим"
+      },
+      "two_glass" : {
+        "date" : 1,
+        "foreign" : "שתֵי",
+        "image" : "two_glass",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "две, два",
+        "simple" : "штэй"
+      },
+      "two_women" : {
+        "date" : 0,
+        "foreign" : "שתַיִם",
+        "image" : "two_women",
+        "level" : 5,
+        "mistake" : 10,
+        "original" : "две, два (для ж.р.)",
+        "simple" : "шта́йим"
+      },
+      "uncle" : {
+        "date" : 22,
+        "foreign" : "דוֹד",
+        "image" : "uncle",
+        "level" : 5,
+        "mistake" : 0,
+        "original" : "дядя",
+        "simple" : "дод"
+      },
+      "until" : {
+        "date" : 8,
+        "foreign" : "עַד",
+        "image" : "until",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "до",
+        "simple" : "сад"
+      },
+      "us_book" : {
+        "date" : 9,
+        "foreign" : "אֶצְלֵנוּ",
+        "image" : "us_book",
+        "level" : 5,
+        "mistake" : 2,
+        "original" : "у нас",
+        "simple" : "эцлэ́ну"
+      },
+      "very" : {
+        "date" : 22,
+        "foreign" : "מְאוֹד",
+        "image" : "very",
+        "level" : 5,
+        "mistake" : 11,
+        "original" : "очень",
+        "simple" : "мэод"
+      },
+      "very_nicely" : {
+        "date" : 1,
+        "foreign" : "נָעִים מְאוֹד",
+        "image" : "very_nicely",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "очень приятно (познакомиться с Вами).",
+        "simple" : "насим мэод"
+      },
+      "wake_up" : {
+        "date" : 1,
+        "foreign" : "אֲנִי קָם",
+        "image" : "wake_up",
+        "level" : 3,
+        "mistake" : 11,
+        "original" : "я встаю",
+        "simple" : "ани кам"
+      },
+      "we" : {
+        "date" : -3,
+        "foreign" : "אַנַחנוּ",
+        "image" : "we",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "мы",
+        "simple" : "анахну"
+      },
+      "we_have" : {
+        "date" : -3,
+        "foreign" : "יֵש לָנוּ",
+        "image" : "we_have",
+        "level" : 3,
+        "mistake" : 8,
+        "original" : "у нас есть (мы имеем)",
+        "simple" : "йэш ла́ану"
+      },
+      "week" : {
+        "date" : -18,
+        "foreign" : "שָבוּעַ",
+        "image" : "week",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "неделя",
+        "simple" : "шаву́ас"
+      },
+      "week_before" : {
+        "date" : -4,
+        "foreign" : "לִפְנֵי שָבוּעַ",
+        "image" : "week_before",
+        "level" : 1,
+        "mistake" : 6,
+        "original" : "неделю назад",
+        "simple" : "лифнэй шаву́ас"
+      },
+      "welcome" : {
+        "date" : -1,
+        "foreign" : "בָּרוּךְ הַבָּא",
+        "image" : "welcome",
+        "level" : 3,
+        "mistake" : 24,
+        "original" : "добро пожаловать!",
+        "simple" : "барух ẋаба"
+      },
+      "what" : {
+        "date" : 9,
+        "foreign" : "מָה",
+        "image" : "what",
+        "level" : 5,
+        "mistake" : 6,
+        "original" : "что?"
+      },
+      "whence" : {
+        "date" : 12,
+        "foreign" : "מִנַיִן",
+        "image" : "whence",
+        "level" : 5,
+        "mistake" : 7,
+        "original" : "откуда? (1)",
+        "simple" : "мина́йин"
+      },
+      "whence2" : {
+        "date" : -3,
+        "foreign" : "מֵאַיִן",
+        "image" : "whence2",
+        "level" : 3,
+        "mistake" : 14,
+        "original" : "откуда? (2)",
+        "simple" : "мэа́йн"
+      },
+      "where" : {
+        "date" : 82,
+        "foreign" : "מָתַי",
+        "image" : "where",
+        "level" : 6,
+        "mistake" : 2,
+        "original" : "когда?"
+      },
+      "where2" : {
+        "date" : 2,
+        "foreign" : "לְאָן",
+        "image" : "where2",
+        "level" : 3,
+        "mistake" : 6,
+        "original" : "куда?",
+        "simple" : "лэан?"
+      },
+      "where3" : {
+        "date" : 2,
+        "foreign" : "אֵיפֹה",
+        "image" : "where3",
+        "level" : 3,
+        "mistake" : 6,
+        "original" : "где?",
+        "simple" : "эйфо?"
+      },
+      "who" : {
+        "date" : 85,
+        "foreign" : "מִי",
+        "image" : "who",
+        "level" : 6,
+        "mistake" : 4,
+        "original" : "кто?"
+      },
+      "whole3" : {
+        "date" : 0,
+        "foreign" : "כָּל חֲה",
+        "image" : "whole3",
+        "level" : 4,
+        "mistake" : 2,
+        "original" : "все.., весь, целый",
+        "simple" : "коль ẋа..."
+      },
+      "why" : {
+        "date" : 9,
+        "foreign" : "לָמָה",
+        "image" : "why",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "почему? зачем?",
+        "simple" : "ла́ма"
+      },
+      "wife" : {
+        "date" : 87,
+        "foreign" : "אִשָה",
+        "image" : "wife",
+        "level" : 6,
+        "mistake" : 6,
+        "original" : "женщина, жена"
+      },
+      "with_pleasure" : {
+        "date" : 2,
+        "foreign" : "בְּרָצוֹן",
+        "image" : "with_pleasure",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "с удовольствием",
+        "simple" : "бэ-рацон"
+      },
+      "without" : {
+        "date" : 4,
+        "foreign" : "בְּלִי",
+        "image" : "without",
+        "level" : 4,
+        "mistake" : 3,
+        "original" : "без",
+        "simple" : "бли"
+      },
+      "work" : {
+        "date" : 1,
+        "foreign" : "עֲבוֹדָה",
+        "image" : "work",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "работа",
+        "simple" : "авода"
+      },
+      "write" : {
+        "date" : -5,
+        "foreign" : "כּוֹתֵב",
+        "image" : "write",
+        "level" : 1,
+        "mistake" : 0,
+        "original" : "писать",
+        "simple" : "котев"
+      },
+      "year1" : {
+        "date" : 2,
+        "foreign" : "שָנָה",
+        "image" : "year1",
+        "level" : 5,
+        "mistake" : 4,
+        "original" : "год(1)",
+        "simple" : "шана"
+      },
+      "year2" : {
+        "date" : -5,
+        "foreign" : "שָנִים",
+        "image" : "year2",
+        "level" : 2,
+        "mistake" : 12,
+        "original" : "год(2)",
+        "simple" : "шаним"
+      },
+      "yes" : {
+        "date" : 89,
+        "foreign" : "כֵּן",
+        "image" : "yes",
+        "level" : 6,
+        "mistake" : 3,
+        "original" : "да"
+      },
+      "yesterday" : {
+        "date" : -3,
+        "foreign" : "אֶתמוֹל",
+        "image" : "yesterday",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "вчера"
+      },
+      "yet" : {
+        "date" : -1,
+        "foreign" : "עוׂד",
+        "image" : "yet",
+        "level" : 3,
+        "mistake" : 1,
+        "original" : "ещё",
+        "simple" : "сод"
+      },
+      "yet_no" : {
+        "date" : -1,
+        "foreign" : "עוׂד לׂא",
+        "image" : "yet_no",
+        "level" : 2,
+        "mistake" : 11,
+        "original" : "ещё не...",
+        "simple" : "сод ло..."
+      },
+      "you_came" : {
+        "date" : 5,
+        "foreign" : "תָּבוֹא",
+        "image" : "you_came",
+        "level" : 4,
+        "mistake" : 23,
+        "original" : "ты (м.р.) придешь,она придет/приедет",
+        "simple" : "таво"
+      },
+      "you_come" : {
+        "date" : -3,
+        "foreign" : "חֲזַתֶּם",
+        "image" : "you_come",
+        "level" : 2,
+        "mistake" : 9,
+        "original" : "вы (м. мн.) вернулись",
+        "simple" : "х̣азартэм"
+      },
+      "you_do" : {
+        "date" : 8,
+        "foreign" : "אַתָּה עוֹשֶׂה",
+        "image" : "you_do",
+        "level" : 5,
+        "mistake" : 12,
+        "original" : "ты делаешь (м.р.)",
+        "simple" : "ата осэ"
+      },
+      "you_drink" : {
+        "date" : 0,
+        "foreign" : "תִּשְתֶּה",
+        "image" : "you_drink",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "ты выпьешь",
+        "simple" : "тиштэ"
+      },
+      "you_leave" : {
+        "date" : 9,
+        "foreign" : "אַתָּה גָר",
+        "image" : "you_leave",
+        "level" : 5,
+        "mistake" : 22,
+        "original" : "ты живёшь, проживаешь",
+        "simple" : "ата гар"
+      },
+      "you_polite" : {
+        "date" : 2,
+        "foreign" : "אֲדוֹנִי",
+        "image" : "you_polite",
+        "level" : 5,
+        "mistake" : 5,
+        "original" : "Вы (очень вежливое обращение)",
+        "simple" : "Адони"
+      },
+      "you_returned" : {
+        "date" : 0,
+        "foreign" : "חָזַרְתָּ",
+        "image" : "you_returned",
+        "level" : 3,
+        "mistake" : 7,
+        "original" : "ты (м.) вернулся",
+        "simple" : "х̣аза́рта"
+      },
+      "you_see" : {
+        "date" : 22,
+        "foreign" : "אַתָה רוֹאֶה",
+        "image" : "you_see",
+        "level" : 5,
+        "mistake" : 29,
+        "original" : "ты (м.р.) видишь или вы (к мужчине)",
+        "simple" : "ата роэ"
+      },
+      "you_to_women" : {
+        "date" : 26,
+        "foreign" : "אַתְּ",
+        "image" : "you_to_women",
+        "level" : 5,
+        "mistake" : 3,
+        "original" : "ты (ж.р.)",
+        "simple" : "ат"
+      },
+      "you_were" : {
+        "date" : 0,
+        "foreign" : "הָיִיתָ",
+        "image" : "you_were",
+        "level" : 2,
+        "mistake" : 15,
+        "original" : "ты (м.) был",
+        "simple" : "ẋайи́та"
+      },
+      "your_wife" : {
+        "date" : 0,
+        "foreign" : "אִשְתְךָ",
+        "image" : "your_wife",
+        "level" : 4,
+        "mistake" : 2,
+        "original" : "твоя жена",
+        "simple" : "иштэха"
+      },
+      "zero" : {
+        "date" : 1,
+        "foreign" : "אֶפֶס",
+        "image" : "zero",
+        "level" : 4,
+        "mistake" : 1,
+        "original" : "ноль",
+        "simple" : "Э́фес"
+      }
+    },
+    "KiEnYgEraTOLGtGjSUBPrBKgJj52" : {
+      "accept" : {
+        "date" : 0,
+        "foreign" : "הִתפַּייֵס",
+        "image" : "accept",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "мириться",
+        "simple" : "хитпаиес"
+      },
+      "alive" : {
+        "date" : -4,
+        "foreign" : "חַי",
+        "image" : "alive",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "живой",
+        "simple" : "хай"
+      },
+      "and" : {
+        "date" : 0,
+        "foreign" : "וֵגַם",
+        "image" : "and",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "и",
+        "simple" : "вегам"
+      },
+      "angry" : {
+        "date" : 0,
+        "foreign" : "בְּרוֹגֵז",
+        "image" : "angry",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "со злостью",
+        "simple" : "брогез"
+      },
+      "arm" : {
+        "date" : -4,
+        "foreign" : "יָד",
+        "image" : "arm",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "рука",
+        "simple" : "йад"
+      },
+      "back_body" : {
+        "date" : -4,
+        "foreign" : "גָָב",
+        "image" : "back_body",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "спина",
+        "simple" : "гав"
+      },
+      "bird" : {
+        "date" : 0,
+        "foreign" : "יוֹנֶה",
+        "image" : "bird",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "птица",
+        "simple" : "йоне"
+      },
+      "board" : {
+        "date" : -4,
+        "foreign" : "לוּחַ",
+        "image" : "board",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "доска",
+        "simple" : "луах"
+      },
+      "build" : {
+        "date" : 0,
+        "foreign" : "בוֹנוֹת",
+        "image" : "build",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "строить",
+        "simple" : "бонот"
+      },
+      "cake" : {
+        "date" : -4,
+        "foreign" : "עוּגַה",
+        "image" : "cake",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "пирог, торт",
+        "simple" : "уга"
+      },
+      "chair" : {
+        "date" : 0,
+        "foreign" : "כִיסֵא",
+        "image" : "chair",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "стул",
+        "simple" : "кисе"
+      },
+      "come_3" : {
+        "date" : -4,
+        "foreign" : "לָבוֹא",
+        "image" : "come_3",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "приходить",
+        "simple" : "лавоо"
+      },
+      "dog" : {
+        "date" : -4,
+        "foreign" : "כֵּּלֵב",
+        "image" : "dog",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "собака",
+        "simple" : "кэлэв"
+      },
+      "doll" : {
+        "date" : -4,
+        "foreign" : "בּוּבָּה",
+        "image" : "doll",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "кукла",
+        "simple" : "буба"
+      },
+      "edge" : {
+        "date" : 0,
+        "foreign" : "בִקְצֵה",
+        "image" : "edge",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "край",
+        "simple" : "бикце"
+      },
+      "elephant" : {
+        "date" : -4,
+        "foreign" : "פִּיל",
+        "image" : "elephant",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "слон",
+        "simple" : "пиль"
+      },
+      "experience" : {
+        "date" : -4,
+        "foreign" : "נִיסַיוֹן",
+        "image" : "experience",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "опыт",
+        "simple" : "нисаён"
+      },
+      "eye" : {
+        "date" : -4,
+        "foreign" : "עין",
+        "image" : "eye",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "глаз",
+        "simple" : "айн"
+      },
+      "face" : {
+        "date" : 0,
+        "foreign" : "הַחוֹטַם",
+        "image" : "face",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "лицо",
+        "simple" : "ахотем"
+      },
+      "father" : {
+        "date" : -4,
+        "foreign" : "אַבָּא",
+        "image" : "father",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "папа",
+        "simple" : "аба"
+      },
+      "fish" : {
+        "date" : -4,
+        "foreign" : "דָג",
+        "image" : "fish",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "рыба",
+        "simple" : "даг"
+      },
+      "fly" : {
+        "date" : -4,
+        "foreign" : "זבוּב",
+        "image" : "fly",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "муха",
+        "simple" : "звув"
+      },
+      "glasses" : {
+        "date" : 0,
+        "foreign" : "מִשקפַייִם",
+        "image" : "glasses",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "очки",
+        "simple" : "мишкфайм"
+      },
+      "gold" : {
+        "date" : -4,
+        "foreign" : "זָהָב",
+        "image" : "gold",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "золото",
+        "simple" : "захав"
+      },
+      "good" : {
+        "date" : -4,
+        "foreign" : "טוֹב",
+        "image" : "good",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "хорошо",
+        "simple" : "тов"
+      },
+      "guess" : {
+        "date" : -4,
+        "foreign" : "חיִדָה",
+        "image" : "guess",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "загадка",
+        "simple" : "хида"
+      },
+      "he_come" : {
+        "date" : -4,
+        "foreign" : "הוּא בָּא",
+        "image" : "he_come",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "он приходит, приезжает, он пришел, приехал",
+        "simple" : "ẋу ба"
+      },
+      "heart" : {
+        "date" : -4,
+        "foreign" : "לֵב",
+        "image" : "heart",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "сердце",
+        "simple" : "лэв"
+      },
+      "honor" : {
+        "date" : -4,
+        "foreign" : "כּבוֹד",
+        "image" : "honor",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "честь",
+        "simple" : "кавод"
+      },
+      "horse" : {
+        "date" : -4,
+        "foreign" : "סוּס",
+        "image" : "horse",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "лошадь",
+        "simple" : "сус"
+      },
+      "into_it" : {
+        "date" : 0,
+        "foreign" : "בּוֹ",
+        "image" : "into_it",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "в нем",
+        "simple" : "бо"
+      },
+      "king" : {
+        "date" : -4,
+        "foreign" : "מֵלֵך",
+        "image" : "king",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "царь",
+        "simple" : "мэлэх"
+      },
+      "lonely" : {
+        "date" : -4,
+        "foreign" : "בוֹדֵד",
+        "image" : "lonely",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "одинокий",
+        "simple" : "бодэд"
+      },
+      "love" : {
+        "date" : -4,
+        "foreign" : "אַָהָבָה",
+        "image" : "love",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "любовь",
+        "simple" : "ахава"
+      },
+      "mother" : {
+        "date" : -4,
+        "foreign" : "אִמָא",
+        "image" : "mother",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "мама",
+        "simple" : "има"
+      },
+      "moving" : {
+        "date" : -4,
+        "foreign" : "נַע",
+        "image" : "moving",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "двигается (он)",
+        "simple" : "на"
+      },
+      "nicely2" : {
+        "date" : -4,
+        "foreign" : "נַאֶה",
+        "image" : "nicely2",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "приятно",
+        "simple" : "наэ"
+      },
+      "no" : {
+        "date" : -4,
+        "foreign" : "לֹא",
+        "image" : "no",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "нет",
+        "simple" : "лё"
+      },
+      "noise" : {
+        "date" : 0,
+        "foreign" : "לִבכּוֹת",
+        "image" : "noise",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "крик",
+        "simple" : "ливкот"
+      },
+      "noise2" : {
+        "date" : 0,
+        "foreign" : "הוֹמוֹת",
+        "image" : "noise2",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "шуметь",
+        "simple" : "хомот"
+      },
+      "nose" : {
+        "date" : 0,
+        "foreign" : "אַף",
+        "image" : "nose",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "нос",
+        "simple" : "аф"
+      },
+      "one" : {
+        "date" : -4,
+        "foreign" : "אַחַת",
+        "image" : "one",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "один",
+        "simple" : "ахад"
+      },
+      "percent" : {
+        "date" : -4,
+        "foreign" : "אָחוּז",
+        "image" : "percent",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "процент",
+        "simple" : "ахуз"
+      },
+      "pigeon" : {
+        "date" : 0,
+        "foreign" : "שוֹבַך",
+        "image" : "pigeon",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "голубь",
+        "simple" : "шобах"
+      },
+      "pinkie" : {
+        "date" : 0,
+        "foreign" : "זֶרֶת",
+        "image" : "pinkie",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "мизинец",
+        "simple" : "зерет"
+      },
+      "polite" : {
+        "date" : -4,
+        "foreign" : "נִמוּס",
+        "image" : "polite",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "вежливый",
+        "simple" : "нимус"
+      },
+      "roof" : {
+        "date" : -4,
+        "foreign" : "גָג",
+        "image" : "roof",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "крыша",
+        "simple" : "гаг"
+      },
+      "salt" : {
+        "date" : -4,
+        "foreign" : "מֵלֵח",
+        "image" : "salt",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "соль",
+        "simple" : "милэх"
+      },
+      "secret" : {
+        "date" : -4,
+        "foreign" : "סוֹד",
+        "image" : "secret",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "секрет",
+        "simple" : "сод"
+      },
+      "steering_wheel" : {
+        "date" : -4,
+        "foreign" : "הֵגֵה",
+        "image" : "steering_wheel",
+        "level" : 2,
+        "mistake" : 2,
+        "original" : "руль",
+        "simple" : "хэгэ"
+      },
+      "table" : {
+        "date" : 0,
+        "foreign" : "שוּלחַן",
+        "image" : "table",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "таблица",
+        "simple" : "шулхан"
+      },
+      "talk" : {
+        "date" : 0,
+        "foreign" : "לֶקָשקֶש",
+        "image" : "talk",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "болтать",
+        "simple" : "лекашкеш"
+      },
+      "tell" : {
+        "date" : 0,
+        "foreign" : "דַבַר",
+        "image" : "tell",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "говорить",
+        "simple" : "давар"
+      },
+      "this_man" : {
+        "date" : -4,
+        "foreign" : "זֶה",
+        "image" : "this_man",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "это",
+        "simple" : "зэ"
+      },
+      "thread" : {
+        "date" : -4,
+        "foreign" : "חוּט",
+        "image" : "thread",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "нитка",
+        "simple" : "хут"
+      },
+      "thumb" : {
+        "date" : 0,
+        "foreign" : "בוֹהֵן",
+        "image" : "thumb",
+        "level" : 0,
+        "mistake" : 0,
+        "original" : "большой палец",
+        "simple" : "боен"
+      },
+      "touch" : {
+        "date" : -4,
+        "foreign" : "נוֹגֵע",
+        "image" : "touch",
+        "level" : 2,
+        "mistake" : 1,
+        "original" : "касается (м.р. ед.ч)",
+        "simple" : "ногэа"
+      },
+      "trick" : {
+        "date" : -4,
+        "foreign" : "נֵעֵלַם",
+        "image" : "trick",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "исчез (3л. М.р. Ед.ч)",
+        "simple" : "нээлям"
+      },
+      "water" : {
+        "date" : -4,
+        "foreign" : "מַיִם",
+        "image" : "water",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "вода",
+        "simple" : "маим"
+      },
+      "white2" : {
+        "date" : -4,
+        "foreign" : "לַבַן",
+        "image" : "white2",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "белый",
+        "simple" : "лаван"
+      },
+      "wolf" : {
+        "date" : -4,
+        "foreign" : "זֵאֵב",
+        "image" : "wolf",
+        "level" : 2,
+        "mistake" : 11,
+        "original" : "волк",
+        "simple" : "зээв"
+      },
+      "worker2" : {
+        "date" : -4,
+        "foreign" : "פּוֹעֵל",
+        "image" : "worker2",
+        "level" : 2,
+        "mistake" : 0,
+        "original" : "работник (человек)",
+        "simple" : "поэль"
+      }
+    }
+  }
+}

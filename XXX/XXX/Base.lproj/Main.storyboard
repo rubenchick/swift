@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lIw-bi-g9K">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="nG4-D9-u7V">
+            <objects>
+                <viewController id="lIw-bi-g9K" customClass="ViewController" customModule="XXX" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ot9-2G-NyV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="cGR-PZ-xYV">
+                                <rect key="frame" x="16" y="128" width="343" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pRg-kT-bFm">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="pressButton:" destination="lIw-bi-g9K" eventType="touchDown" id="Xym-pH-ZTC"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap me 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-Ol-MAL" customClass="CopyableLabel" customModule="XXX" customModuleProvider="target">
+                                <rect key="frame" x="129" y="181" width="150" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cGR-PZ-xYV" firstAttribute="centerX" secondItem="U5w-81-Xjd" secondAttribute="centerX" id="CDg-0G-y24"/>
+                            <constraint firstItem="cGR-PZ-xYV" firstAttribute="leading" secondItem="U5w-81-Xjd" secondAttribute="leading" constant="16" id="WSz-MF-Gcc"/>
+                            <constraint firstItem="U5w-81-Xjd" firstAttribute="trailing" secondItem="cGR-PZ-xYV" secondAttribute="trailing" constant="16" id="Zsc-A9-wFJ"/>
+                            <constraint firstItem="cGR-PZ-xYV" firstAttribute="top" secondItem="U5w-81-Xjd" secondAttribute="top" constant="108" id="ngr-Ru-AYY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U5w-81-Xjd"/>
+                    </view>
+                    <connections>
+                        <outlet property="progressBar" destination="cGR-PZ-xYV" id="cqf-9a-WDp"/>
+                        <outlet property="textLabel" destination="qj0-Ol-MAL" id="ElJ-Ib-Ob7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68S-oW-yRD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="536.79999999999995" y="-361.16941529235385"/>
+        </scene>
+    </scenes>
+</document>
