@@ -19,7 +19,7 @@ enum TypeOfLanguage {
     case spanish
 }
 
-let actualLanguage      = TypeOfLanguage.english //!!!!!!!
+var actualLanguage      = TypeOfLanguage.russian //!!!!!!!
 let commonTranslation   = Translation()
 let emptyTranslationCD  = TranslationCD() //
 let emptyPresentTenseCD = PresentTenseCD()
@@ -39,6 +39,7 @@ let nameFieldUpdate     = "update"
 let nameTestTable       = "testHebrew"
 let utf16H = 104
 let keyForNumberUpdateInUserDefaults = "numberUpdate"
+let textBackNavigationBar = Translation(russian: "Назад", english: "Back", spanish: "Back")
 
 enum Utf16Parameter : UTF16.CodeUnit {
     case hebrewMin = 1400 //1488

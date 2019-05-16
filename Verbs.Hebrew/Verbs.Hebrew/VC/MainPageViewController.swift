@@ -45,9 +45,13 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
     override func viewWillAppear(_ animated: Bool) {
 //        startConfiguration() /// temp
         
-        print(wordsArray.count,"willAppear")
+//        print(wordsArray.count,"willAppear")
         self.navigationItem.setHidesBackButton(true, animated: false)
+        
+
     }
+    
+
 //    override func viewDidAppear(_ animated: Bool) {
 //        startConfiguration() /// temp
 //    }
@@ -58,6 +62,7 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         super.viewDidLoad()
         searchBar.delegate = self
         alterLayout()
+        createRightButton()
  //       startConfiguration() //english version//
 //        howManyRecordInCoreData()
         
@@ -171,7 +176,40 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
      
     }
 
-
+    func createRightButton() {
+        let rightButton = UIButton()
+        if let imageRightButton = UIImage(named: "language32") {
+            rightButton.setImage(imageRightButton, for: .normal)
+        }
+        rightButton.frame = CGRect(x: 0, y: 0, width: 30, height: 30)
+        rightButton.layer.cornerRadius = 20
+        rightButton.contentMode = .scaleAspectFit
+        rightButton.addTarget(self, action: #selector(pressButton), for: .touchDown)
+        rightButton.addTarget(self, action: #selector(upInsideButton), for: .touchUpInside)
+        rightButton.addTarget(self, action: #selector(leaveButton), for: .touchDragExit)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightButton)
+        
+    }
+    
+    @objc func pressButton() {
+        self.navigationItem.rightBarButtonItem?.customView?.alpha = 0.2
+    }
+    
+    @objc func upInsideButton() {
+        if actualLanguage == TypeOfLanguage.english {
+            actualLanguage = TypeOfLanguage.russian
+        } else {
+            actualLanguage = TypeOfLanguage.english
+        }
+        searchBar.text = ""
+        currentWordsArray = wordsArray
+        tableView.reloadData()
+        self.navigationItem.rightBarButtonItem?.customView?.alpha = 1
+    }
+    
+    @objc func leaveButton() {
+        self.navigationItem.rightBarButtonItem?.customView?.alpha = 1
+    }
     
     // MARK: - CoreData
     func addToRecordCoreData(translation: Translation?,typeOfTranslation: String) -> (TranslationCD) {
@@ -1044,6 +1082,7 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
                 print(error.localizedDescription)
             }
         } else {
+            singInFirebase()
             print("no connection to FireBase")
         }
      //   print(wordsArray.count,"data from FB.2")
@@ -1302,10 +1341,27 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         return currentWordsArray.count
     }
     
+    func returnTranslation(translation: Translation?) -> (String) {
+        if translation != nil {
+            switch actualLanguage {
+            case .russian:
+                return translation?.russian ?? ""
+            case .english:
+                return translation?.english ?? ""
+            case .spanish:
+                return translation?.spanish ?? ""
+            case .hebrew:
+                return translation?.russian ?? ""
+            }
+        } else {
+            return ""
+        }
+    }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell(style: UITableViewCell.CellStyle.subtitle, reuseIdentifier: "reuseIdentifier")
-        cell.textLabel?.text = currentWordsArray[indexPath.row].translation?.russian
+        cell.textLabel?.text = returnTranslation(translation: currentWordsArray[indexPath.row].translation)
+//        cell.textLabel?.text = currentWordsArray[indexPath.row].translation?.russian //english version//
         cell.selectionStyle = .none
         cell.detailTextLabel?.text = currentWordsArray[indexPath.row].infinitive
         
@@ -1351,7 +1407,9 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
             searchBar.text = searchBar.text?.lowercased()
             currentWordsArray = wordsArray.filter({ (word) -> Bool in
                 guard let text = searchBar.text else { return false }
-                let fullTextForSearch = cleanHebrew(word: word.infinitive.lowercased()) + " " + word.translation!.russian.lowercased()
+                let fullTextForSearch = cleanHebrew(word: word.infinitive.lowercased()) + " " + returnTranslation(translation: word.translation!).lowercased()
+                //english version//
+                //let fullTextForSearch = cleanHebrew(word: word.infinitive.lowercased()) + " " + word.translation!.russian.lowercased()
                 return fullTextForSearch.contains(text.lowercased())
             })
             if currentWordsArray.count == 0 {

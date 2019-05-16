@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Verbs.Hebrew/VC/MainPageViewController.swift"
-            timestampString = "579635589.917263"
+            timestampString = "579691472.191034"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "390"
-            endingLineNumber = "390"
+            startingLineNumber = "428"
+            endingLineNumber = "428"
             landmarkName = "addTo(record:)"
             landmarkType = "7">
          </BreakpointContent>

@@ -26,8 +26,10 @@ class DetailPageViewController: UIViewController, UITableViewDelegate, UITableVi
     func startSetConfiguration() -> () {
         let font: [AnyHashable : Any] = [NSAttributedString.Key.font : UIFont.systemFont(ofSize: 24)]
         segmentControl.setTitleTextAttributes(font as? [NSAttributedString.Key : Any], for: .normal)
-        self.navigationController?.navigationBar.topItem?.title = "Назад"
+        self.navigationController?.navigationBar.topItem?.title = returnTranslation(translation: textBackNavigationBar)
+//        self.navigationController?.navigationBar.topItem?.title = "Назад" //english version//
         self.title = currentWord.typeOfVerb.rawValue
+//        createRightButton() //english version// 
         if returnTranslation(translation: currentWord.infinitiveP) != "" {
             prononsationLabel.text = "( " + returnTranslation(translation: currentWord.infinitiveP) + " )"
         }
@@ -39,6 +41,21 @@ class DetailPageViewController: UIViewController, UITableViewDelegate, UITableVi
         }
         tableView.tableFooterView = UIView()
         
+    }
+    func createRightButton() {
+        let rightButton = UIButton()
+        if let imageRightButton = UIImage(named: "today.png") {
+            rightButton.setImage(imageRightButton, for: .normal)
+        }
+        rightButton.frame = CGRect(x: 0, y: 0, width: 34, height: 34)
+        rightButton.layer.cornerRadius = 20
+        rightButton.contentMode = .scaleAspectFit
+        rightButton.addTarget(self, action: #selector(pressChangeLanguage), for: .touchDown)
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightButton)
+        
+    }
+    @objc func pressChangeLanguage() {
+        print("Press")
     }
     
     @IBAction func pressSegmentControl(_ sender: UISegmentedControl) {
