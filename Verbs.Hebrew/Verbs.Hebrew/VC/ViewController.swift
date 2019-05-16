@@ -4,7 +4,9 @@
 //
 //  Created by Anton Rubenchik on 01/03/2019.
 //  Copyright © 2019 Anton Rubenchik. All rights reserved.
-//
+
+//english version// - example tag
+//test english version// - example for test
 
 import UIKit
 import CoreData
@@ -20,8 +22,8 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.view.isHidden = true
         indicator.startAnimating()
-//        performSegue(withIdentifier: identifierSegueVC, sender: false) /// temp
-        self.startConfiguration() /// temp
+        performSegue(withIdentifier: identifierSegueVC, sender: false) //english version// need comment
+ //       self.startConfiguration() //english version//
         
 //        progressBar.progress = 0
         // отключили обновление. реальзуем через многопоточность в следующей версии
@@ -141,8 +143,8 @@ class ViewController: UIViewController {
 //        print("Start sort array")
         if wordsArray.count > 10 {
             wordsArray.sort(by: { (one, two) -> Bool in
-                let x = one.translation?.russian ?? ""
-                let y = two.translation?.russian ?? ""
+                let x = one.translation?.russian ?? ""   //english version// do english version
+                let y = two.translation?.russian ?? ""   //english version// do english version
                 if x < y {
                     return true
                 } else {

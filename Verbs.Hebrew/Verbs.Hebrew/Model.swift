@@ -12,7 +12,7 @@ struct Word {
 
     var infinitive   : String = ""
     var infinitiveP  : Translation?
-    var typeOfVerb   : TypeOfVerb = TypeOfVerb.paal
+    var typeOfVerb   : TypeOfVerb = TypeOfVerb.paal /////// !!!!!!!!!!!!!
     var preposition  : String = ""
     var translation  : Translation?
     var presentTense : PresentTense?
@@ -130,18 +130,4 @@ struct BlackWord {
     
 }
 
-
-// delete
-struct WordForLearning {
-    var foreign : String = ""
-    var original: String = ""
-    var isLearned: Bool = false
-    var levelOfLearning: Int = 0
-    var nextContact: Date? = nil
-    var dontWantToLearn : Bool = false
-    var image : String = ""
-    var mistake : Int = 0
-    var discription: String? = ""
-    var simple: String? = ""
-}
 

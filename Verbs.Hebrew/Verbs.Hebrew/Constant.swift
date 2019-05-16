@@ -19,7 +19,7 @@ enum TypeOfLanguage {
     case spanish
 }
 
-let actualLanguage      = TypeOfLanguage.russian //!!!!!!!
+let actualLanguage      = TypeOfLanguage.english //!!!!!!!
 let commonTranslation   = Translation()
 let emptyTranslationCD  = TranslationCD() //
 let emptyPresentTenseCD = PresentTenseCD()
@@ -36,6 +36,7 @@ let loginFireBase       =  "anton@rubenchick.com"
 let passwordFireBase    = "eWV6cPJGjEyavFeQP"
 let nameTable           = "hebrew"
 let nameFieldUpdate     = "update"
+let nameTestTable       = "testHebrew"
 let utf16H = 104
 let keyForNumberUpdateInUserDefaults = "numberUpdate"
 
@@ -58,6 +59,10 @@ enum TypeOfVerb : String {
     case hifal   = "הֻפְעַל"
     case nifal   = "נִפְעַל"
     case hitpael = "הִתְפַּעֵל"
+}
+enum TypeOfReadDataFromFireBase  {
+    case upgradeData
+    case showRecords
 }
 
 //enum TypeOfTranslation {

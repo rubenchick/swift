@@ -8,9 +8,10 @@
 
 import UIKit
 import CoreData
-//import Firebase
+import Firebase //english version//
 
 var wordsArray = [Word]()
+var upgradeWordsArray = [Word]() // for add english prononce
 var isFisrtTime = true
 //var isLoad   : Bool = falseЉ
 //var isUpdate : Bool = false
@@ -24,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        FirebaseApp.configure()
+        FirebaseApp.configure() //english version// 
         return true
     }
 

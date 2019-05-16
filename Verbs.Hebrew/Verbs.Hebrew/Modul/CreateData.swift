@@ -276,4 +276,13 @@ class CreateData {
             wordsArray.append(convertToCoreDataFormat(fromExcelFormatData: word))
         }
     }
+    //english version//
+    func fillUpgradeArray() -> () {
+        let wordsFromAddArray = AddNewWords()
+        
+        // convert all new words
+        for word in wordsFromAddArray.newWordsArray {
+            upgradeWordsArray.append(convertToCoreDataFormat(fromExcelFormatData: word))
+        }
+    }
 }

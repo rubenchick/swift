@@ -21,21 +21,26 @@
 //+ 12. Запомнить тип времени, для показа на автомате
 // 13.
 //V 14 Убрать клавиатуру
+// 15. Добавить английскую верстю
+// 16. Добравить переключение языков
+// 17. Добавить копировать
+// 18. Опубликовать
 
 
 import UIKit
 import CoreData
-//import Firebase
-//import FirebaseDatabase
+import Firebase //english version//
+import FirebaseDatabase //english version//
 
 class MainPageViewController: UITableViewController, UISearchBarDelegate {
-//    var ref: DatabaseReference!
+    var ref: DatabaseReference! //english version//
     @IBOutlet weak var searchBar: UISearchBar!
     let commonTranslation   = Translation()
     let emptyTranslationCD = TranslationCD() //
     var createData = CreateData()
     var currentWordsArray = [Word]()
     var isLoad = false
+    var newItem = Word()
    
     override func viewWillAppear(_ animated: Bool) {
 //        startConfiguration() /// temp
@@ -53,15 +58,24 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         super.viewDidLoad()
         searchBar.delegate = self
         alterLayout()
-        startConfiguration() /// temp
+ //       startConfiguration() //english version//
 //        howManyRecordInCoreData()
-//        correctionDataInFireBase()
-
-
+        
+        
+        //english version//
+        //start block AddEnglishPrononce
+//        readFromFireBase(for: .upgradeData)
+//        readFromFireBase(for: .showRecords)
+        // end block AddEnglishPrononce
+        
+          readFromFireBase(for: .showRecords)
+        //start block correction
+     //   correctionDataInFireBase()
+        // end block correction
         
         // not for main App
         // create array from excel
-        //start. block add Info to FireBase
+        //start. block add Info to FireBase //english version// block comment
 //        let createDataModule = CreateData()
 //        createDataModule.fillArray() //createArrayFromExcel
 //
@@ -85,22 +99,22 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
 //        updateCoreData() //save add data
         
     }
-    
-//    func howRecordsInFireBase() { // temp for debug
-//        if Auth.auth().currentUser?.uid != nil {
-//            print("connection to FireBase. well")
-//            ref.child(nameTable).observeSingleEvent(of: .value, with: { (snapshot) in
-//                print("Start read FB")
-//                // Get user value
-//                let value = snapshot.value as? NSDictionary
-//                print(value?.count ?? 0)
-//            }) { (error) in
-//                print(error.localizedDescription)
-//            }
-//        } else {
-//            print("no connection to FireBase")
-//        }
-//    }
+    //english version// block comment
+    func howRecordsInFireBase() { // temp for debug
+        if Auth.auth().currentUser?.uid != nil {
+            print("connection to FireBase. well")
+            ref.child(nameTable).observeSingleEvent(of: .value, with: { (snapshot) in
+                print("Start read FB")
+                // Get user value
+                let value = snapshot.value as? NSDictionary
+                print(value?.count ?? 0)
+            }) { (error) in
+                print(error.localizedDescription)
+            }
+        } else {
+            print("no connection to FireBase")
+        }
+    }
     
     func startConfiguration() {
 //        howManyRecordInCoreData()
@@ -785,16 +799,17 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
     }
     
     // MARK: - Firebase
+    //english version// coment block
     func singInFirebase() {
-//        Auth.auth().signIn(withEmail: "anton@rubenchick.com", password: "eWV6cPJGjEyavFeQP") { (user, error) in
-//            if let error = error {
-//                print(error.localizedDescription)
-//                print("NOOOOO. Connection")
-//            }
-//            else {
-//                print("All right. Connection")
-//            }
-//        }
+        Auth.auth().signIn(withEmail: "anton@rubenchick.com", password: "eWV6cPJGjEyavFeQP") { (user, error) in
+            if let error = error {
+                print(error.localizedDescription)
+                print("NOOOOO. Connection")
+            }
+            else {
+                print("All right. Connection")
+            }
+        }
     }
     
 //    func resetTable() {
@@ -997,31 +1012,41 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         return newWord
     }
     
-    
-    func readFromFireBase() {
-//
-//        if Auth.auth().currentUser?.uid != nil {
-//            print("connection to FireBase. well")
-//            ref.child(nameTable).observeSingleEvent(of: .value, with: { (snapshot) in
-//                // Get user value
-//                let value = snapshot.value as? NSDictionary
-//                for word in (value?.allValues)! {
-//                    if let word = word as? NSDictionary {
-//                        wordsArray.append(self.convert(dictionaryTo: word))
-//                    }
-//                }
-//                print(wordsArray.count,"data from FB.1")
-//                self.currentWordsArray = wordsArray
-//                self.tableView.reloadData()
-////                self.updateCoreData()
-//
-//            }) { (error) in
-//                print(error.localizedDescription)
-//            }
-//        } else {
-//            print("no connection to FireBase")
-//        }
-//        print(wordsArray.count,"data from FB.2")
+    //english version// comment func
+    func readFromFireBase(for type: TypeOfReadDataFromFireBase) {
+        ref = Database.database().reference()
+        if Auth.auth().currentUser?.uid != nil {
+            print("connection to FireBase. well")
+            ref.child(nameTestTable).observeSingleEvent(of: .value, with: { (snapshot) in
+        //    ref.child(nameTable).observeSingleEvent(of: .value, with: { (snapshot) in //test english version//
+                // Get user value
+                let value = snapshot.value as? NSDictionary
+                for word in (value?.allValues)! {
+                    if let word = word as? NSDictionary {
+                        wordsArray.append(self.convert(dictionaryTo: word))
+                    }
+                }
+                switch type {
+                case .showRecords :
+                    self.currentWordsArray = wordsArray //english version//
+                    self.tableView.reloadData() //english version//
+                    //                self.updateCoreData()
+                    
+                case .upgradeData :
+                    let createDataModule = CreateData() //test english version// delete
+                    createDataModule.fillUpgradeArray() //createArrayFromExcel //test english version// delete
+                    self.addEnglishPrononceInFireBase()
+                }
+             //   print(wordsArray.count,"data from FB.1")
+
+
+            }) { (error) in
+                print(error.localizedDescription)
+            }
+        } else {
+            print("no connection to FireBase")
+        }
+     //   print(wordsArray.count,"data from FB.2")
     }
     
 //    func writeToFireBaseNumberUpdate() {
@@ -1051,86 +1076,192 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
     //            print("userID - nil")
     //        }
     //    }
+    //english version// full comment block
     func correctionDataInFireBase() {
-//        ref = Database.database().reference()
-//        let userID = Auth.auth().currentUser?.uid
-//        if userID != nil {
-//            // find item in Array
-//            for item in wordsArray {
-//                let searchText = "לְהַגְלִיד"
-//                if item.infinitive == searchText {
-//                    print("Data find")
-//
-//                    var correction = item.translation
-//                    correction?.russian = "зарубцовываться, затягиваться (о ране)"
-//
-//                    var wordDict = [String : Any]()
-//                    for i in 0...namesFieldsArray.count-1 {
-//                        switch i {
-//                        case 0: wordDict[namesFieldsArray[i]] = item.infinitive
-//                        case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.infinitiveP ?? commonTranslation)
-//                        case 2: wordDict[namesFieldsArray[i]] = item.typeOfVerb.rawValue
-//                        case 3: wordDict[namesFieldsArray[i]] = item.preposition
-//                        case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(correction ?? commonTranslation)
-////                            case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.translation ?? commonTranslation)
-//                        case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: item)
-//                        case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: item)
-//                        case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: item)
-//                        case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: item)
-//
-//                        default:
-//                            return
-//                        }
-//                    }
-//                    self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
-//                        if let error = error {
-//                            print("No")
-//                            print(error.localizedDescription)
-//                        } else {
-//                            print("Data record ")
-//                        }
-//
-//                    }
-//                }
-//            }
-//        }
+        ref = Database.database().reference()
+        let userID = Auth.auth().currentUser?.uid
+        if userID != nil {
+            // find item in Array
+            for item in wordsArray {
+                let searchText = "לָשׁוֹם"
+                    if item.infinitive == searchText {
+                    print("Data find")
+
+                    var correction = item.translation
+                    correction?.english = "english"
+
+                    var wordDict = [String : Any]()
+                    for i in 0...namesFieldsArray.count-1 {
+                        switch i {
+                        case 0: wordDict[namesFieldsArray[i]] = item.infinitive
+                        case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.infinitiveP ?? commonTranslation)
+                        case 2: wordDict[namesFieldsArray[i]] = item.typeOfVerb.rawValue
+                        case 3: wordDict[namesFieldsArray[i]] = item.preposition
+                        case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(correction ?? commonTranslation)
+//                            case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.translation ?? commonTranslation)
+                        case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: item)
+                        case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: item)
+                        case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: item)
+                        case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: item)
+
+                        default:
+                            return
+                        }
+                    }
+                        //test english version//
+                    self.ref.child(nameTestTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                    //self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                        if let error = error {
+                            print("No")
+                            print(error.localizedDescription)
+                        } else {
+                            print("Data record ")
+                        }
+
+                    }
+                }
+            }
+        }
     }
     
+    
+    
+    //english version// add for English version
+    func addEnglishPrononceInFireBase() {
+        
+        let userID = Auth.auth().currentUser?.uid
+        if userID != nil {
+            
+            for upgradeWord in upgradeWordsArray {
+                //seach item in FireBase
+                var i = 0
+                var isFound = false
+                var currentWord = Word()
+                while (i < wordsArray.count)&&(!isFound) {
+                    if wordsArray[i].infinitive == upgradeWord.infinitive {
+                        currentWord = wordsArray[i]
+                        isFound = true
+                    }
+                    i += 1
+                }
+                print("I - \(i)")
+                
+                
+                // send new field
+                
+                if currentWord.infinitive != "" {
+                    currentWord.infinitiveP?.english = upgradeWord.infinitiveP?.english ?? ""
+                    // PresentTense
+                    currentWord.presentTense?.masculineSingularPr?.english = upgradeWord.presentTense?.masculineSingularPr?.english ?? ""
+                    currentWord.presentTense?.feminineSingularPr?.english  = upgradeWord.presentTense?.feminineSingularPr?.english ?? ""
+                    currentWord.presentTense?.masculinePluralPr?.english   = upgradeWord.presentTense?.masculinePluralPr?.english ?? ""
+                    currentWord.presentTense?.femininePluralPr?.english    = upgradeWord.presentTense?.femininePluralPr?.english ?? ""
+                    // Past Tense
+                    currentWord.pastTense?.singular1stPr?.english          = upgradeWord.pastTense?.singular1stPr?.english ?? ""
+                    currentWord.pastTense?.masculineSingular2ndPr?.english = upgradeWord.pastTense?.masculineSingular2ndPr?.english ?? ""
+                    currentWord.pastTense?.feminineSingular2ndPr?.english  = upgradeWord.pastTense?.feminineSingular2ndPr?.english ?? ""
+                    currentWord.pastTense?.masculineSingular3ndPr?.english = upgradeWord.pastTense?.masculineSingular3ndPr?.english ?? ""
+                    currentWord.pastTense?.feminineSingular3ndPr?.english  = upgradeWord.pastTense?.feminineSingular3ndPr?.english ?? ""
+                    currentWord.pastTense?.plural1stPr?.english            = upgradeWord.pastTense?.plural1stPr?.english ?? ""
+                    currentWord.pastTense?.masculinePlural2ndPr?.english   = upgradeWord.pastTense?.masculinePlural2ndPr?.english ?? ""
+                    currentWord.pastTense?.femininePlural2ndPr?.english    = upgradeWord.pastTense?.femininePlural2ndPr?.english ?? ""
+                    currentWord.pastTense?.plural3ndPr?.english            = upgradeWord.pastTense?.plural3ndPr?.english ?? ""
+                    
+                    //FutureTense
+                    currentWord.futureTense?.singular1stPr?.english          = upgradeWord.futureTense?.singular1stPr?.english ?? ""
+                    currentWord.futureTense?.masculineSingular2ndPr?.english = upgradeWord.futureTense?.masculineSingular2ndPr?.english ?? ""
+                    currentWord.futureTense?.feminineSingular2ndPr?.english  = upgradeWord.futureTense?.feminineSingular2ndPr?.english ?? ""
+                    currentWord.futureTense?.masculineSingular3ndPr?.english = upgradeWord.futureTense?.masculineSingular3ndPr?.english ?? ""
+                    currentWord.futureTense?.feminineSingular3ndPr?.english  = upgradeWord.futureTense?.feminineSingular3ndPr?.english ?? ""
+                    currentWord.futureTense?.plural1stPr?.english            = upgradeWord.futureTense?.plural1stPr?.english ?? ""
+                    currentWord.futureTense?.masculinePlural2ndPr?.english   = upgradeWord.futureTense?.masculinePlural2ndPr?.english ?? ""
+                    currentWord.futureTense?.femininePlural2ndPr?.english    = upgradeWord.futureTense?.femininePlural2ndPr?.english ?? ""
+                    currentWord.futureTense?.plural3ndPr?.english            = upgradeWord.futureTense?.plural3ndPr?.english ?? ""
+                    //Imperative
+                    currentWord.imperative?.masculineSingularPr?.english     = upgradeWord.imperative?.masculineSingularPr?.english ?? ""
+                    currentWord.imperative?.feminineSingularPr?.english      = upgradeWord.imperative?.feminineSingularPr?.english ?? ""
+                    currentWord.imperative?.pluralPr?.english                = upgradeWord.imperative?.pluralPr?.english ?? ""
+                    
+                    currentWord.translation?.english = upgradeWord.translation?.english ?? ""
+                    
+                    var wordDict = [String : Any]()
+                    for i in 0...namesFieldsArray.count-1 {
+                        switch i {
+                        case 0: wordDict[namesFieldsArray[i]] = currentWord.infinitive
+                        case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(currentWord.infinitiveP ?? commonTranslation)
+                        case 2: wordDict[namesFieldsArray[i]] = currentWord.typeOfVerb.rawValue
+                        case 3: wordDict[namesFieldsArray[i]] = currentWord.preposition
+                        case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(currentWord.translation ?? commonTranslation)
+                        case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: currentWord)
+                        case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: currentWord)
+                        case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: currentWord)
+                        case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: currentWord)
+                            
+                        default:
+                            return
+                        }
+                    }
+                    //test english version//
+                    self.ref.child(nameTestTable).child(currentWord.infinitive).setValue(wordDict) { (error, dataResult) in
+                        //self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                        if let error = error {
+                            print("No")
+                            print(error.localizedDescription)
+                        } else {
+                            print("Data record ")
+                        }
+                    }
+                }
+            }
+        } else {
+            print("userID - nil")
+        }
+    }
+    
+    
+    //english version// comment full block
     func writeToFireBase() {
-//        let userID = Auth.auth().currentUser?.uid
-//        //        print(userID)
-//        if userID != nil {
-//            // each elements of wordArray
-//            for item in wordsArray {
-//                // create tuple with information about word
-//                var wordDict = [String : Any]()
-//                for i in 0...namesFieldsArray.count-1 {
-//                    switch i {
-//                    case 0: wordDict[namesFieldsArray[i]] = item.infinitive
-//                    case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.infinitiveP ?? commonTranslation)
-//                    case 2: wordDict[namesFieldsArray[i]] = item.typeOfVerb.rawValue
-//                    case 3: wordDict[namesFieldsArray[i]] = item.preposition
-//                    case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.translation ?? commonTranslation)
-//                    case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: item)
-//                    case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: item)
-//                    case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: item)
-//                    case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: item)
-//
-//                    default:
-//                        return
-//                    }
-//                }
-//                self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
-//                    if let error = error {
-//                        print("No")
-//                        print(error.localizedDescription)
-//                    }
-//                }
-//            }
-////            writeToFireBaseNumberUpdate()
-//        } else {
-//            print("userID - nil")
-//        }
+        let userID = Auth.auth().currentUser?.uid
+        //        print(userID)
+        if userID != nil {
+            // each elements of wordArray
+            for item in wordsArray {
+                // create tuple with information about word
+                var wordDict = [String : Any]()
+                for i in 0...namesFieldsArray.count-1 {
+                    switch i {
+                    case 0: wordDict[namesFieldsArray[i]] = item.infinitive
+                    case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.infinitiveP ?? commonTranslation)
+                    case 2: wordDict[namesFieldsArray[i]] = item.typeOfVerb.rawValue
+                    case 3: wordDict[namesFieldsArray[i]] = item.preposition
+                    case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.translation ?? commonTranslation)
+                    case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: item)
+                    case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: item)
+                    case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: item)
+                    case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: item)
+
+                    default:
+                        return
+                    }
+                }
+                //test english version//
+                self.ref.child(nameTestTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                //self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                    if let error = error {
+                        print("No")
+                        print(error.localizedDescription)
+                    }
+                }
+            }
+//            writeToFireBaseNumberUpdate()
+        } else {
+            print("userID - nil")
+            //english version// comment block. bad. алгоритм не работает
+            if Auth.auth().currentUser?.uid == nil {
+                print("need singIn")
+                singInFirebase()
+            }
+        }
     }
     
     // MARK: - Table view data source
