@@ -39,6 +39,9 @@ let nameFieldUpdate     = "update"
 let nameTestTable       = "testHebrew"
 let utf16H = 104
 let keyForNumberUpdateInUserDefaults = "numberUpdate"
+let keyCurrentLanguage  = "currentLanguage"
+let keyRunCount         = "runCount"
+let countTimesToRequest = 15
 let textBackNavigationBar = Translation(russian: "Назад", english: "Back", spanish: "Back")
 
 enum Utf16Parameter : UTF16.CodeUnit {

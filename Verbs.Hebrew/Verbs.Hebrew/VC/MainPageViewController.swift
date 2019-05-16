@@ -21,10 +21,14 @@
 //+ 12. Запомнить тип времени, для показа на автомате
 // 13.
 //V 14 Убрать клавиатуру
-// 15. Добавить английскую верстю
-// 16. Добравить переключение языков
-// 17. Добавить копировать
-// 18. Опубликовать
+//V 15. Добавить английскую верстю
+//V 16. Добравить переключение языков
+//V 17. Добавить копировать
+// 18.  Определения языка при старте.
+// 19. Загрузить базу англ перевода
+// 20. Опубликовать
+// 21. Сделать сайт. программы.
+// 22. Пересортировывать после смены языка
 
 
 import UIKit
@@ -201,7 +205,13 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         } else {
             actualLanguage = TypeOfLanguage.english
         }
+        let currentLanguage = actualLanguage == TypeOfLanguage.russian ? "russian" : "english"
+        UserDefaults.standard.setValue(currentLanguage, forKey: keyCurrentLanguage)
+        print(currentLanguage)
+        UserDefaults.standard.synchronize()
         searchBar.text = ""
+        let vc = ViewController()
+        vc.sortingArray()
         currentWordsArray = wordsArray
         tableView.reloadData()
         self.navigationItem.rightBarButtonItem?.customView?.alpha = 1

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		5E0EE015BAE9AD6539E91C58 /* Pods_Verbs_Hebrew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB849CB976CBDC85AB12D60B /* Pods_Verbs_Hebrew.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		CA427D63228D766E001D514E /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA427D62228D766E001D514E /* CopyableLabel.swift */; };
+		CA427D65228D93BE001D514E /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA427D64228D93BE001D514E /* RateManager.swift */; };
 		CAA0124F2235905C0095EAFD /* DatailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0124E2235905C0095EAFD /* DatailTableViewCell.swift */; };
 		CAA17F5D223771A900A02AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAA17F5C223771A900A02AA0 /* GoogleService-Info.plist */; };
 		CAE557192229834B0061B233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE557182229834B0061B233 /* AppDelegate.swift */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		04B7E9937C737DB9052DED1B /* Pods-Verbs.Hebrew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verbs.Hebrew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Verbs.Hebrew/Pods-Verbs.Hebrew.debug.xcconfig"; sourceTree = "<group>"; };
 		B261E8E03EAB54C038DC81B3 /* Pods-Verbs.Hebrew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verbs.Hebrew.release.xcconfig"; path = "Pods/Target Support Files/Pods-Verbs.Hebrew/Pods-Verbs.Hebrew.release.xcconfig"; sourceTree = "<group>"; };
+		CA427D62228D766E001D514E /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
+		CA427D64228D93BE001D514E /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
 		CAA0124E2235905C0095EAFD /* DatailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailTableViewCell.swift; sourceTree = "<group>"; };
 		CAA17F5C223771A900A02AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAE557152229834B0061B233 /* Verbs.Hebrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verbs.Hebrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +127,7 @@
 				CAE5573C222A57E80061B233 /* Modul */,
 				CAE5573622298B5A0061B233 /* Constant.swift */,
 				CAE5573422298B250061B233 /* Model.swift */,
+				CA427D64228D93BE001D514E /* RateManager.swift */,
 				CAE5573122298AA90061B233 /* VC */,
 				CAE5571C2229834B0061B233 /* Main.storyboard */,
 				CAE557222229834D0061B233 /* Assets.xcassets */,
@@ -142,6 +147,7 @@
 				CAE5572D2229842F0061B233 /* MainPageViewController.swift */,
 				CAE5572F222984B30061B233 /* DetailPageViewController.swift */,
 				CAA0124E2235905C0095EAFD /* DatailTableViewCell.swift */,
+				CA427D62228D766E001D514E /* CopyableLabel.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -303,9 +309,11 @@
 			files = (
 				CAE5573522298B250061B233 /* Model.swift in Sources */,
 				CAE5573922298BB50061B233 /* AddNewWords.swift in Sources */,
+				CA427D65228D93BE001D514E /* RateManager.swift in Sources */,
 				CAE557DE222C54650061B233 /* TranslationCD+CoreDataProperties.swift in Sources */,
 				CAE5573322298AF00061B233 /* CoreDataManager.swift in Sources */,
 				CAA0124F2235905C0095EAFD /* DatailTableViewCell.swift in Sources */,
+				CA427D63228D766E001D514E /* CopyableLabel.swift in Sources */,
 				CAE557D9222C54650061B233 /* PastTenseCD+CoreDataClass.swift in Sources */,
 				CAE557DC222C54650061B233 /* ImperativeCD+CoreDataProperties.swift in Sources */,
 				CAE557E4222C54650061B233 /* PresentTenseCD+CoreDataProperties.swift in Sources */,

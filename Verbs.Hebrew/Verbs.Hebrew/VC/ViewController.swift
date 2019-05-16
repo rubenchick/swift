@@ -22,6 +22,12 @@ class ViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         self.view.isHidden = true
         indicator.startAnimating()
+        if #available(iOS 10.3, *) {
+            RateMAnager.showRatesController()
+        } else {
+            // Fallback on earlier versions
+        }
+        takeActualLanguage()
         performSegue(withIdentifier: identifierSegueVC, sender: false) //english version// need comment
  //       self.startConfiguration() //english version//
         
@@ -115,6 +121,21 @@ class ViewController: UIViewController {
         // write to FireBase number update
         
     }
+    func takeActualLanguage() {
+        UserDefaults.standard.synchronize()
+        if UserDefaults.standard.value(forKey: keyCurrentLanguage) != nil {
+         //   print("\(UserDefaults.standard.value(forKey: keyCurrentLanguage))")
+            if (UserDefaults.standard.value(forKey: keyCurrentLanguage) as! String) == "russian" {
+                actualLanguage = TypeOfLanguage.russian
+            } else {
+                actualLanguage = TypeOfLanguage.english
+            }
+            //            actualLanguage = UserDefaults.standard.value(forKey: keyCurrentLanguage) as! TypeOfLanguage
+        } else {
+            print("Language NIL")
+            actualLanguage = TypeOfLanguage.english // NEED change   //english version// !!!!!!
+        }
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == identifierSegueVC {
@@ -138,19 +159,37 @@ class ViewController: UIViewController {
 //            }
 //        }
     }
+    //english version//
+    func sortingArray() {
+        let vc = MainPageViewController()
+        // sorting
+        wordsArray.sort(by: { (one, two) -> Bool in
+            let x = vc.returnTranslation(translation: one.translation)
+            let y = vc.returnTranslation(translation: two.translation)
+            if x < y {
+                return true
+            } else {
+                return false
+            }
+        })
+    }
     
     func goToMainPageVCifArrayReady() {
 //        print("Start sort array")
         if wordsArray.count > 10 {
-            wordsArray.sort(by: { (one, two) -> Bool in
-                let x = one.translation?.russian ?? ""   //english version// do english version
-                let y = two.translation?.russian ?? ""   //english version// do english version
-                if x < y {
-                    return true
-                } else {
-                    return false
-                }
-            })
+            sortingArray()
+            //english version// full comment
+//            wordsArray.sort(by: { (one, two) -> Bool in
+//                let x = vc.returnTranslation(translation: one.translation) //english version// do english version
+//                let y = vc.returnTranslation(translation: two.translation) //english version// do english version
+////                let x = one.translation?.russian ?? ""   //english version// do english version
+////                let y = two.translation?.russian ?? ""   //english version// do english version
+//                if x < y {
+//                    return true
+//                } else {
+//                    return false
+//                }
+//            })
             indicator.stopAnimating()
 //            print("Go to next VC")
             performSegue(withIdentifier: identifierSegueVC, sender: true)
