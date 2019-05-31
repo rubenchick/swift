@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Infinitive"; ObjectID = "6ka-xV-v1t"; */
+"6ka-xV-v1t.text" = "Infinitive";
+
+/* Class = "UISegmentedControl"; INy-0l-UGZ.segmentTitles[0] = "ציווי"; ObjectID = "INy-0l-UGZ"; */
+"INy-0l-UGZ.segmentTitles[0]" = "ציווי";
+
+/* Class = "UISegmentedControl"; INy-0l-UGZ.segmentTitles[1] = "עתיד"; ObjectID = "INy-0l-UGZ"; */
+"INy-0l-UGZ.segmentTitles[1]" = "עתיד";
+
+/* Class = "UISegmentedControl"; INy-0l-UGZ.segmentTitles[2] = "עבר"; ObjectID = "INy-0l-UGZ"; */
+"INy-0l-UGZ.segmentTitles[2]" = "עבר";
+
+/* Class = "UISegmentedControl"; INy-0l-UGZ.segmentTitles[3] = "הווה"; ObjectID = "INy-0l-UGZ"; */
+"INy-0l-UGZ.segmentTitles[3]" = "הווה";
+
+/* Class = "UILabel"; text = "Идет загрузка данных ..."; ObjectID = "WMO-cD-XPt"; */
+"WMO-cD-XPt.text" = "Идет загрузка данных ...";
+
+/* Class = "UILabel"; text = "word"; ObjectID = "b2X-4v-UQo"; */
+"b2X-4v-UQo.text" = "word";
+
+/* Class = "UILabel"; text = "(2 мин.)"; ObjectID = "goZ-UC-s6i"; */
+"goZ-UC-s6i.text" = "(2 мин.)";
+
+/* Class = "UILabel"; text = "Infinitive"; ObjectID = "nVh-ao-EbJ"; */
+"nVh-ao-EbJ.text" = "Infinitive";
+
+/* Class = "UILabel"; text = "Body"; ObjectID = "xkL-VE-5Tr"; */
+"xkL-VE-5Tr.text" = "Body";
+
+/* Class = "UILabel"; text = "translate"; ObjectID = "ybS-b1-qEF"; */
+"ybS-b1-qEF.text" = "translate";

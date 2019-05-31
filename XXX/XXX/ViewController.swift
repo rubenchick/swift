@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let pasteboard = UIPasteboard.general
         pasteboard.string = textLabel.text;
-        
+        print(Bundle.main.preferredLocalizations.first)
         
         
         

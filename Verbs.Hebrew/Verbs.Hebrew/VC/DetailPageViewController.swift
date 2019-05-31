@@ -42,21 +42,21 @@ class DetailPageViewController: UIViewController, UITableViewDelegate, UITableVi
         tableView.tableFooterView = UIView()
         
     }
-    func createRightButton() {
-        let rightButton = UIButton()
-        if let imageRightButton = UIImage(named: "today.png") {
-            rightButton.setImage(imageRightButton, for: .normal)
-        }
-        rightButton.frame = CGRect(x: 0, y: 0, width: 34, height: 34)
-        rightButton.layer.cornerRadius = 20
-        rightButton.contentMode = .scaleAspectFit
-        rightButton.addTarget(self, action: #selector(pressChangeLanguage), for: .touchDown)
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightButton)
-        
-    }
-    @objc func pressChangeLanguage() {
-        print("Press")
-    }
+//    func createRightButton() {
+//        let rightButton = UIButton()
+//        if let imageRightButton = UIImage(named: "today.png") {
+//            rightButton.setImage(imageRightButton, for: .normal)
+//        }
+//        rightButton.frame = CGRect(x: 0, y: 0, width: 34, height: 34)
+//        rightButton.layer.cornerRadius = 20
+//        rightButton.contentMode = .scaleAspectFit
+//        rightButton.addTarget(self, action: #selector(pressChangeLanguage), for: .touchDown)
+//        self.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightButton)
+//        
+//    }
+//    @objc func pressChangeLanguage() {
+//        print("Press")
+//    }
     
     @IBAction func pressSegmentControl(_ sender: UISegmentedControl) {
         tableView.reloadData()

@@ -12,7 +12,7 @@ struct Word {
 
     var infinitive   : String = ""
     var infinitiveP  : Translation?
-    var typeOfVerb   : TypeOfVerb = TypeOfVerb.paal /////// !!!!!!!!!!!!!
+    var typeOfVerb   : TypeOfVerb = TypeOfVerb.hifil /////// !!!!!!!!!!!!!
     var preposition  : String = ""
     var translation  : Translation?
     var presentTense : PresentTense?

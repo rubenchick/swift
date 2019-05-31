@@ -8,130 +8,83 @@
 
 import Foundation
 class AddNewWords {
-    //    let newWordsArray : [BlackWord] = []
+//        let newWordsArray : [BlackWord] = []
     //
+  
+    
+
     let newWordsArray : [BlackWord] = [
-        BlackWord(translation  : "drop, knock over, let drop; leave land uncultivated (bibl.)",
-                  infinitive   : "לִשְׁמוֹטlishmot",
-                  presentMS    : "שׁוֹמֵטshomet",
-                  presentFS: "שׁוֹמֶטֶתshometet",
-                  presentMP: "שׁוֹמְטִיםshomtim",
-                  presentFP: "שׁוֹמְטוֹתshomtot",
-                  past1S: "שָׁמַטְתִּיshamateti",
-                  past2MS: "שָׁמַטְתָּshamateta",
-                  past2FS: "שָׁמַטְתְּshamatet",
-                  past3MS: "שָׁמַטshamat",
-                  past3FS: "שָׁמְטָהshamta",
-                  past1P: "שָׁמַטְנוּshamatnu",
-                  past2MP: "*שְׁמַטְתֶּםshmatetem",
-                  past2FP: "*שְׁמַטְתֶּןshmateten",
-                  past3P: "שָׁמְטוּshamtu",
-                  future1S: "אֶשְׁמוֹטeshmot",
-                  future2MS: "תִּשְׁמוֹטtishmot",
-                  future2FS: "תִּשְׁמְטִיtishmeti",
-                  future3MS: "יִשְׁמוֹטyishmot",
-                  future3FS: "תִּשְׁמוֹטtishmot",
-                  future1P: "נִשְׁמוֹטnishmot",
-                  future2MP: "תִּשְׁמְטוּtishmetu",
-                  future2FP: "תִּשְׁמְטוּtishmetu",
-                  future3MP: "יִשְׁמְטוּyishmetu",
-                  future3FP: "יִשְׁמְטוּyishmetu",
-                  imperativeMS: "שְׁמוֹט!‏shmot!",
-                  imperativeFS: "שִׁמְטִי!‏shimti!",
-                  imperativeMP: "שִׁמְטוּ!‏shimtu!",
-                  imperativeFP: "שִׁמְטוּ!‏shimtu!"),
-        BlackWord(translation  : "become fatter, fatten",
-                  infinitive   : "לִשְׁמוֹןlishmon",
-                  presentMS    : "שָׁמֵןshamen",
-                  presentFS: "שְׁמֵנָהshmena",
-                  presentMP: "שְׁמֵנִיםshmenim",
-                  presentFP: "שְׁמֵנוֹתshmenot",
-                  past1S: "שָׁמַנְתִּיshamanti",
-                  past2MS: "שָׁמַנְתָּshamanta",
-                  past2FS: "שָׁמַנְתְּshamant",
-                  past3MS: "שָׁמַןshaman",
-                  past3FS: "שָׁמְנָהshamna",
-                  past1P: "שָׁמַנּוּshamannu",
-                  past2MP: "*שְׁמַנְתֶּםshmantem",
-                  past2FP: "*שְׁמַנְתֶּןshmanten",
-                  past3P: "שָׁמְנוּshamnu",
-                  future1S: "אֶשְׁמַןeshman",
-                  future2MS: "תִּשְׁמַןtishman",
-                  future2FS: "תִּשְׁמְנִיtishmeni",
-                  future3MS: "יִשְׁמַןyishman",
-                  future3FS: "תִּשְׁמַןtishman",
-                  future1P: "נִשְׁמַןnishman",
-                  future2MP: "תִּשְׁמְנוּtishmenu",
-                  future2FP: "תִּשְׁמְנוּtishmenu",
-                  future3MP: "יִשְׁמְנוּyishmenu",
-                  future3FP: "יִשְׁמְנוּyishmenu",
-                  imperativeMS: "",
-                  imperativeFS: "",
-                  imperativeMP: "",
-                  imperativeFP: ""),
-        BlackWord(translation  : "hear; listen",
-                  infinitive   : "לִשְׁמוֹעַlishmoa",
-                  presentMS    : "שׁוֹמֵעַshomea",
-                  presentFS: "שׁוֹמַעַתshoma'at",
-                  presentMP: "שׁוֹמְעִיםshom'im",
-                  presentFP: "שׁוֹמְעוֹתshom'ot",
-                  past1S: "שָׁמַעְתִּיshamati",
-                  past2MS: "שָׁמַעְתָּshamata",
-                  past2FS: "שָׁמַעְתְּshamat",
-                  past3MS: "שָׁמַעshama",
-                  past3FS: "שָׁמְעָהsham'a",
-                  past1P: "שָׁמַעְנוּshamanu",
-                  past2MP: "*שְׁמַעְתֶּםshma'atem",
-                  past2FP: "*שְׁמַעְתֶּןshma'aten",
-                  past3P: "שָׁמְעוּsham'u",
-                  future1S: "אֶשְׁמַעeshma",
-                  future2MS: "תִּשְׁמַעtishma",
-                  future2FS: "תִּשְׁמְעִיtishme'i",
-                  future3MS: "יִשְׁמַעyishma",
-                  future3FS: "תִּשְׁמַעtishma",
-                  future1P: "נִשְׁמַעnishma",
-                  future2MP: "תִּשְׁמְעוּtishme'u",
-                  future2FP: "תִּשְׁמְעוּtishme'u",
-                  future3MP: "יִשְׁמְעוּyishme'u",
-                  future3FP: "יִשְׁמְעוּyishme'u",
-                  imperativeMS: "שְׁמַע!‏shma!",
-                  imperativeFS: "שִׁמְעִי!‏shim'i!",
-                  imperativeMP: "שִׁמְעוּ!‏shim'u!",
-                  imperativeFP: "שִׁמְעוּ!‏shim'u!"),
-        BlackWord(translation  : "be ruined, abandoned (biblical)",
-                  infinitive   : "לָשׁוֹםlashom",
-                  presentMS    : "שׁוֹמֵםshomem",
-                  presentFS: "שׁוֹמֶמֶתshomemet",
-                  presentMP: "שׁוֹמְמִיםshomemim",
-                  presentFP: "שׁוֹמְמוֹתshomemot",
-                  past1S: "שָׁמַמְתִּיshamamti",
-                  past2MS: "שָׁמַמְתָּshamamta",
-                  past2FS: "שָׁמַמְתְּshamamt",
-                  past3MS: "שָׁמֵםshamem",
-                  past3FS: "שָׁמְמָהshamema",
-                  past1P: "שָׁמַמְנוּshamamnu",
-                  past2MP: "*שְׁמַמְתֶּםshmamtem",
-                  past2FP: "*שְׁמַמְתֶּןshmamten",
-                  past3P: "שָׁמְמוּshamemu",
-                  future1S: "אֵשַׁםesham",
-                  future2MS: "תֵּשַׁםtesham",
-                  future2FS: "תֵּשַׁמִּיteshami",
-                  future3MS: "יֵשַׁםyesham",
-                  future3FS: "תֵּשַׁםtesham",
-                  future1P: "נֵשַׁםnesham",
-                  future2MP: "תֵּשַׁמּוּteshamu",
-                  future2FP: "תֵּשַׁמּוּteshamu",
-                  future3MP: "יֵשַׁמּוּyeshamu",
-                  future3FP: "יֵשַׁמּוּyeshamu",
-                  imperativeMS: "שׁוֹם!‏shom!",
-                  imperativeFS: "שׁוֹמִּי!‏shomi!",
-                  imperativeMP: "שׁוֹמּוּ!‏shomu!",
-                  imperativeFP: "שׁוֹמּוּ!‏shomu!"),
+        BlackWord(translation  : "turn pale",
+                  infinitive   : "לְהַחְוִירlehachvir",
+                  presentMS    : "מַחֲווִירmachavir",
+                  presentFS: "מַחֲווִירָהmachavira",
+                  presentMP: "מַחֲווִירִיםmachavirim",
+                  presentFP: "מַחֲווִירוֹתmachavirot",
+                  past1S: "הֶחֱווַרְתִּיhechevarti",
+                  past2MS: "הֶחֱווַרְתָּhechevarta",
+                  past2FS: "הֶחֱווַרְתְּhechevart",
+                  past3MS: "הֶחֱווִירhechevir",
+                  past3FS: "הֶחֱווִירָהhechevira",
+                  past1P: "הֶחֱווַרְנוּhechevarnu",
+                  past2MP: "*הֶחֱווַרְתֶּםhechevartem",
+                  past2FP: "*הֶחֱווַרְתֶּןhechevarten",
+                  past3P: "הֶחֱווִירוּhecheviru",
+                  future1S: "אַחֲווִירachavir",
+                  future2MS: "תַּחֲווִירtachavir",
+                  future2FS: "תַּחֲווִירִיtachaviri",
+                  future3MS: "יַחֲווִירyachavir",
+                  future3FS: "תַּחֲווִירtachavir",
+                  future1P: "נַחֲווִירnachavir",
+                  future2MP: "תַּחֲווִירוּtachaviru",
+                  future2FP: "תַּחֲווִירוּtachaviru",
+                  future3MP: "יַחֲווִירוּyachaviru",
+                  future3FP: "יַחֲווִירוּyachaviru",
+                  imperativeMS: "הַחֲווֵר!‏hachaver!",
+                  imperativeFS: "הַחֲווִירִי!‏hachaviri!",
+                  imperativeMP: "הַחֲווִירוּ!‏hachaviru!",
+                  imperativeFP: "הַחֲווִירוּ!‏hachaviru!"),
     ]
 
-  
-  
+
+
+    
+    
+
    
+
+   
+    
+
+
+   
+
+    
+
+   
+    
+   
+    
+    
+    
+    
+    
+    
+    
+
+   
+   
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+   
+
 }
 
 /*

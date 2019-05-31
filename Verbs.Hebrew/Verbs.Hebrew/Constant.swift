@@ -19,7 +19,7 @@ enum TypeOfLanguage {
     case spanish
 }
 
-var actualLanguage      = TypeOfLanguage.russian //!!!!!!!
+var actualLanguage      = TypeOfLanguage.english //!!!!!!!
 let commonTranslation   = Translation()
 let emptyTranslationCD  = TranslationCD() //
 let emptyPresentTenseCD = PresentTenseCD()

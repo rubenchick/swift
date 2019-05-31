@@ -10,6 +10,7 @@
 		5E0EE015BAE9AD6539E91C58 /* Pods_Verbs_Hebrew.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB849CB976CBDC85AB12D60B /* Pods_Verbs_Hebrew.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		CA427D63228D766E001D514E /* CopyableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA427D62228D766E001D514E /* CopyableLabel.swift */; };
 		CA427D65228D93BE001D514E /* RateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA427D64228D93BE001D514E /* RateManager.swift */; };
+		CA7D0352229AA23100FB53CC /* hebrewverbs7.json in Resources */ = {isa = PBXBuildFile; fileRef = CA7D0351229AA23000FB53CC /* hebrewverbs7.json */; };
 		CAA0124F2235905C0095EAFD /* DatailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA0124E2235905C0095EAFD /* DatailTableViewCell.swift */; };
 		CAA17F5D223771A900A02AA0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAA17F5C223771A900A02AA0 /* GoogleService-Info.plist */; };
 		CAE557192229834B0061B233 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE557182229834B0061B233 /* AppDelegate.swift */; };
@@ -37,14 +38,15 @@
 		CAE557E2222C54650061B233 /* WordCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE557D6222C54650061B233 /* WordCD+CoreDataProperties.swift */; };
 		CAE557E3222C54650061B233 /* PresentTenseCD+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE557D7222C54650061B233 /* PresentTenseCD+CoreDataClass.swift */; };
 		CAE557E4222C54650061B233 /* PresentTenseCD+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAE557D8222C54650061B233 /* PresentTenseCD+CoreDataProperties.swift */; };
-		CAF264F9225335E70033D6D7 /* hebrewverbs.json in Resources */ = {isa = PBXBuildFile; fileRef = CAF264F8225335E60033D6D7 /* hebrewverbs.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04B7E9937C737DB9052DED1B /* Pods-Verbs.Hebrew.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verbs.Hebrew.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Verbs.Hebrew/Pods-Verbs.Hebrew.debug.xcconfig"; sourceTree = "<group>"; };
 		B261E8E03EAB54C038DC81B3 /* Pods-Verbs.Hebrew.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Verbs.Hebrew.release.xcconfig"; path = "Pods/Target Support Files/Pods-Verbs.Hebrew/Pods-Verbs.Hebrew.release.xcconfig"; sourceTree = "<group>"; };
+		CA3E0744229EFB570022EB3C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		CA427D62228D766E001D514E /* CopyableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyableLabel.swift; sourceTree = "<group>"; };
 		CA427D64228D93BE001D514E /* RateManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateManager.swift; sourceTree = "<group>"; };
+		CA7D0351229AA23000FB53CC /* hebrewverbs7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hebrewverbs7.json; sourceTree = "<group>"; };
 		CAA0124E2235905C0095EAFD /* DatailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailTableViewCell.swift; sourceTree = "<group>"; };
 		CAA17F5C223771A900A02AA0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CAE557152229834B0061B233 /* Verbs.Hebrew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Verbs.Hebrew.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,7 +76,6 @@
 		CAE557D6222C54650061B233 /* WordCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WordCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CAE557D7222C54650061B233 /* PresentTenseCD+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PresentTenseCD+CoreDataClass.swift"; sourceTree = "<group>"; };
 		CAE557D8222C54650061B233 /* PresentTenseCD+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PresentTenseCD+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		CAF264F8225335E60033D6D7 /* hebrewverbs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hebrewverbs.json; sourceTree = "<group>"; };
 		EB849CB976CBDC85AB12D60B /* Pods_Verbs_Hebrew.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Verbs_Hebrew.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -132,7 +133,7 @@
 				CAE5571C2229834B0061B233 /* Main.storyboard */,
 				CAE557222229834D0061B233 /* Assets.xcassets */,
 				CAE557242229834D0061B233 /* LaunchScreen.storyboard */,
-				CAF264F8225335E60033D6D7 /* hebrewverbs.json */,
+				CA7D0351229AA23000FB53CC /* hebrewverbs7.json */,
 				CAE557272229834D0061B233 /* Info.plist */,
 				CAA17F5C223771A900A02AA0 /* GoogleService-Info.plist */,
 				CAE5571F2229834B0061B233 /* Verbs_Hebrew.xcdatamodeld */,
@@ -223,6 +224,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = CAE5570C2229834B0061B233;
 			productRefGroup = CAE557162229834B0061B233 /* Products */;
@@ -242,7 +244,7 @@
 				CAE557262229834D0061B233 /* LaunchScreen.storyboard in Resources */,
 				CAA17F5D223771A900A02AA0 /* GoogleService-Info.plist in Resources */,
 				CAE557232229834D0061B233 /* Assets.xcassets in Resources */,
-				CAF264F9225335E70033D6D7 /* hebrewverbs.json in Resources */,
+				CA7D0352229AA23100FB53CC /* hebrewverbs7.json in Resources */,
 				CAE5571E2229834B0061B233 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +344,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				CAE5571D2229834B0061B233 /* Base */,
+				CA3E0744229EFB570022EB3C /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -422,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

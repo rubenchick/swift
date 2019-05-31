@@ -24,11 +24,12 @@
 //V 15. Добавить английскую верстю
 //V 16. Добравить переключение языков
 //V 17. Добавить копировать
-// 18.  Определения языка при старте.
-// 19. Загрузить базу англ перевода
+//V 18.  Определения языка при старте.
+//V 19. Загрузить базу англ перевода
 // 20. Опубликовать
 // 21. Сделать сайт. программы.
-// 22. Пересортировывать после смены языка
+//V 22. Пересортировывать после смены языка
+//- 23. Менять массив после смены языка, так как могут быть разные длины // не нужно, так как массивы одной длины
 
 
 import UIKit
@@ -45,7 +46,7 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
     var currentWordsArray = [Word]()
     var isLoad = false
     var newItem = Word()
-   
+    var k = 0 // test for upload data
     override func viewWillAppear(_ animated: Bool) {
 //        startConfiguration() /// temp
         
@@ -67,19 +68,19 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         searchBar.delegate = self
         alterLayout()
         createRightButton()
- //       startConfiguration() //english version//
+        startConfiguration() //english version//
 //        howManyRecordInCoreData()
         
         
         //english version//
         //start block AddEnglishPrononce
-//        readFromFireBase(for: .upgradeData)
+//       readFromFireBase(for: .upgradeData)
 //        readFromFireBase(for: .showRecords)
         // end block AddEnglishPrononce
         
-          readFromFireBase(for: .showRecords)
+       //   readFromFireBase(for: .showRecords)
         //start block correction
-     //   correctionDataInFireBase()
+//        correctionDataInFireBase()
         // end block correction
         
         // not for main App
@@ -152,6 +153,13 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         if isFisrtTime {
             currentWordsArray = wordsArray
             isFisrtTime = false
+            
+//            for word in wordsArray {
+//                if (word.translation?.russian != "") && (word.translation?.english == "") {
+//                    print("\(word.infinitive)");
+//                }
+//            }
+            
         }
 //        else {
 //            print(isUpdate, "нужно ли обновляться")
@@ -208,7 +216,7 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         let currentLanguage = actualLanguage == TypeOfLanguage.russian ? "russian" : "english"
         UserDefaults.standard.setValue(currentLanguage, forKey: keyCurrentLanguage)
         print(currentLanguage)
-        UserDefaults.standard.synchronize()
+//        UserDefaults.standard.synchronize()
         searchBar.text = ""
         let vc = ViewController()
         vc.sortingArray()
@@ -1065,8 +1073,8 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         ref = Database.database().reference()
         if Auth.auth().currentUser?.uid != nil {
             print("connection to FireBase. well")
-            ref.child(nameTestTable).observeSingleEvent(of: .value, with: { (snapshot) in
-        //    ref.child(nameTable).observeSingleEvent(of: .value, with: { (snapshot) in //test english version//
+        //    ref.child(nameTestTable).observeSingleEvent(of: .value, with: { (snapshot) in
+            ref.child(nameTable).observeSingleEvent(of: .value, with: { (snapshot) in //test english version//
                 // Get user value
                 let value = snapshot.value as? NSDictionary
                 for word in (value?.allValues)! {
@@ -1132,34 +1140,41 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
         if userID != nil {
             // find item in Array
             for item in wordsArray {
-                let searchText = "לָשׁוֹם"
+                let searchText = "לַחְכּוֹם"
                     if item.infinitive == searchText {
-                    print("Data find")
-
-                    var correction = item.translation
-                    correction?.english = "english"
-
-                    var wordDict = [String : Any]()
-                    for i in 0...namesFieldsArray.count-1 {
-                        switch i {
-                        case 0: wordDict[namesFieldsArray[i]] = item.infinitive
-                        case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.infinitiveP ?? commonTranslation)
-                        case 2: wordDict[namesFieldsArray[i]] = item.typeOfVerb.rawValue
-                        case 3: wordDict[namesFieldsArray[i]] = item.preposition
-                        case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(correction ?? commonTranslation)
-//                            case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.translation ?? commonTranslation)
-                        case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: item)
-                        case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: item)
-                        case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: item)
-                        case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: item)
-
-                        default:
-                            return
+                        print("Data find")
+                        
+                        //                    var correction = item.translation
+                        //                    correction?.english = "google (slang)"
+                        var item2 = item
+                        item2.imperative?.feminineSingular = ""
+                        item2.imperative?.feminineSingularPr?.russian = ""
+                        item2.imperative?.masculineSingular = ""
+                        item2.imperative?.masculineSingularPr?.russian = ""
+                        item2.imperative?.plural = ""
+                        item2.imperative?.pluralPr?.russian = ""
+                        
+                        var wordDict = [String : Any]()
+                        for i in 0...namesFieldsArray.count-1 {
+                            switch i {
+                            case 0: wordDict[namesFieldsArray[i]] = item.infinitive
+                            case 1: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.infinitiveP ?? commonTranslation)
+                            case 2: wordDict[namesFieldsArray[i]] = item.typeOfVerb.rawValue
+                            case 3: wordDict[namesFieldsArray[i]] = item.preposition
+                            //                        case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(correction ?? commonTranslation)
+                            case 4: wordDict[namesFieldsArray[i]] = createDictTranslationFor(item.translation ?? commonTranslation)
+                            case 5: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .presentTense, word: item)
+                            case 6: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .pastTense,    word: item)
+                            case 7: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .futureTense,  word: item)
+                            case 8: wordDict[namesFieldsArray[i]] = createTense(typeOfTanse: .imperative,   word: item2)
+                                
+                            default:
+                                return
                         }
                     }
                         //test english version//
-                    self.ref.child(nameTestTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
-                    //self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                 //   self.ref.child(nameTestTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                    self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
                         if let error = error {
                             print("No")
                             print(error.localizedDescription)
@@ -1193,7 +1208,8 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
                     }
                     i += 1
                 }
-                print("I - \(i)")
+                k += 1
+                print("I - \(k)")
                 
                 
                 // send new field
@@ -1251,13 +1267,13 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
                         }
                     }
                     //test english version//
-                    self.ref.child(nameTestTable).child(currentWord.infinitive).setValue(wordDict) { (error, dataResult) in
-                        //self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                   // self.ref.child(nameTestTable).child(currentWord.infinitive).setValue(wordDict) { (error, dataResult) in
+                        self.ref.child(nameTable).child(currentWord.infinitive).setValue(wordDict) { (error, dataResult) in
                         if let error = error {
                             print("No")
                             print(error.localizedDescription)
                         } else {
-                            print("Data record ")
+                        //    print("Data record ")
                         }
                     }
                 }
@@ -1294,8 +1310,8 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
                     }
                 }
                 //test english version//
-                self.ref.child(nameTestTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
-                //self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                //self.ref.child(nameTestTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
+                self.ref.child(nameTable).child(item.infinitive).setValue(wordDict) { (error, dataResult) in
                     if let error = error {
                         print("No")
                         print(error.localizedDescription)
@@ -1408,7 +1424,8 @@ class MainPageViewController: UITableViewController, UISearchBarDelegate {
             cleanHebrew(word: word.futureTense?.feminineSingular3nd.lowercased() ?? "") + " " +
             cleanHebrew(word: word.futureTense?.plural1st.lowercased() ?? "") + " " +
             cleanHebrew(word: word.futureTense?.masculinePlural2nd.lowercased() ?? "") + " " +
-            word.translation!.russian.lowercased()        
+//            word.translation!.russian.lowercased()
+            returnTranslation(translation: word.translation!).lowercased()
         return outputText
     }
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {

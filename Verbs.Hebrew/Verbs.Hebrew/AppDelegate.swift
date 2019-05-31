@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreData
-import Firebase //english version//
+//import Firebase //english version//
 
 var wordsArray = [Word]()
 var upgradeWordsArray = [Word]() // for add english prononce
@@ -30,7 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         } else {
             // Fallback on earlier versions
         }
-        FirebaseApp.configure() //english version// 
+//        FirebaseApp.configure() //english version// 
         return true
     }
 

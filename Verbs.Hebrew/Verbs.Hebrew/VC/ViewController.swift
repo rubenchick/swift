@@ -27,9 +27,10 @@ class ViewController: UIViewController {
         } else {
             // Fallback on earlier versions
         }
+        
         takeActualLanguage()
-        performSegue(withIdentifier: identifierSegueVC, sender: false) //english version// need comment
- //       self.startConfiguration() //english version//
+//        performSegue(withIdentifier: identifierSegueVC, sender: false) //english version// need comment
+        self.startConfiguration() //english version//
         
 //        progressBar.progress = 0
         // отключили обновление. реальзуем через многопоточность в следующей версии
@@ -133,7 +134,12 @@ class ViewController: UIViewController {
             //            actualLanguage = UserDefaults.standard.value(forKey: keyCurrentLanguage) as! TypeOfLanguage
         } else {
             print("Language NIL")
-            actualLanguage = TypeOfLanguage.english // NEED change   //english version// !!!!!!
+            print(Bundle.main.preferredLocalizations.first);
+            if Bundle.main.preferredLocalizations.first != "ru" {
+                actualLanguage = TypeOfLanguage.english //    //english version// !!!!!!
+            } else {
+                actualLanguage = TypeOfLanguage.russian
+            }
         }
     }
     
@@ -390,7 +396,7 @@ class ViewController: UIViewController {
     }
 
     func readFromFile() {
-        if let path = Bundle.main.path(forResource: "hebrewverbs", ofType: "json") {
+        if let path = Bundle.main.path(forResource: "hebrewverbs7", ofType: "json") {
             if let jsonString = try? String(contentsOfFile: path) {
                 let dict = convertJsonStringToDictionary(text: jsonString) as NSDictionary?
                 if let xxx = dict?["hebrew"] as? NSDictionary {
