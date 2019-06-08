@@ -14,6 +14,7 @@
 		CA0E75CA21E512CE00ACBF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0E75C921E512CE00ACBF83 /* Assets.xcassets */; };
 		CA0E75CD21E512CE00ACBF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0E75CB21E512CE00ACBF83 /* LaunchScreen.storyboard */; };
 		CA37243C21F5F87F00626982 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA37243B21F5F87F00626982 /* ScrollViewController.swift */; };
+		CA6EEDF522A7B24100A88136 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EEDF422A7B24100A88136 /* Notification.swift */; };
 		CAA93FCA21F1E76900A0937D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA93FC921F1E76900A0937D /* NotificationViewController.swift */; };
 		CAA93FCC21F1E8BF00A0937D /* icon1024.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA93FCB21F1E8BE00A0937D /* icon1024.png */; };
 		CAD498B721E9DD9000BEF738 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAD498B521E9DD9000BEF738 /* InfoPlist.strings */; };
@@ -30,6 +31,7 @@
 		CA0E75CC21E512CE00ACBF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0E75CE21E512CE00ACBF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA37243B21F5F87F00626982 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		CA6EEDF422A7B24100A88136 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		CAA93FC921F1E76900A0937D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		CAA93FCB21F1E8BE00A0937D /* icon1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon1024.png; sourceTree = "<group>"; };
 		CAD498B421E9D66300BEF738 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				CA0E75BF21E512CC00ACBF83 /* AppDelegate.swift */,
+				CA6EEDF422A7B24100A88136 /* Notification.swift */,
 				CA0E75C121E512CC00ACBF83 /* ViewController.swift */,
 				CAA93FC921F1E76900A0937D /* NotificationViewController.swift */,
 				CA37243B21F5F87F00626982 /* ScrollViewController.swift */,
@@ -160,6 +163,7 @@
 			files = (
 				CA0E75C221E512CC00ACBF83 /* ViewController.swift in Sources */,
 				CA0E75C021E512CC00ACBF83 /* AppDelegate.swift in Sources */,
+				CA6EEDF522A7B24100A88136 /* Notification.swift in Sources */,
 				CA37243C21F5F87F00626982 /* ScrollViewController.swift in Sources */,
 				CAA93FCA21F1E76900A0937D /* NotificationViewController.swift in Sources */,
 				CA0E75C821E512CC00ACBF83 /* Test_Help_Info.xcdatamodeld in Sources */,

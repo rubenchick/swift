@@ -17,10 +17,11 @@ enum typeInfoForHelp {
     case detailData
     case exit
 }
+var isNeedCreateNotification = false
 
 class SecondTodayHistoryTableViewController: UITableViewController, NSFetchedResultsControllerDelegate, SecondMainTableViewCellDelegate {
-
     
+    let notifications = Notifications()
   
     let identifierCell = "SecondMainCell"
     let identifierSegue = "todayToDaily"
@@ -28,10 +29,11 @@ class SecondTodayHistoryTableViewController: UITableViewController, NSFetchedRes
     var fetchRequest = History.fetchedResultsToday()
     var array : [ThingToDo] = []
     var helpView = UIView()
-  
+ 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         checkDateInToday()
+
 //        setOrder() // need for record same priority because they don't everyday show
         fetchRequest.delegate = self
         // History
@@ -39,6 +41,11 @@ class SecondTodayHistoryTableViewController: UITableViewController, NSFetchedRes
             try fetchRequest.performFetch()
         } catch {
             print(error)
+        }
+        print("will need notification - \(isNeedCreateNotification)")
+        if isNeedCreateNotification {
+            createNewNotification()
+            isNeedCreateNotification = false
         }
         tableView.reloadData()
 //        UIApplication.shared.statusBarStyle = .lightContent
@@ -283,8 +290,22 @@ class SecondTodayHistoryTableViewController: UITableViewController, NSFetchedRes
         let history = fetchRequest.object(at: indexPath!) as! History
         history.isDone = cell.isActualSwitch.isOn
         CoreDataManager.instance.saveContext()
+        
+        // print count don't done
+        createNewNotification()
+        
     }
     
+    func createNewNotification() {
+        let allTasksForToday = fetchRequest.fetchedObjects as? [History]
+        let dontDoneTasks = allTasksForToday?.filter { !$0.isDone }
+        print(dontDoneTasks?.count)
+        if (dontDoneTasks?.count != 0) && (dontDoneTasks?.count != nil) {
+            notifications.pushNotification(tasks: dontDoneTasks?.count ?? 0)
+        } else {
+            notifications.removeAllNotification()
+        }
+    }
     //MARK: Move to other page
 //    @IBAction func addButton(_ sender: UIBarButtonItem) {
 //        performSegue(withIdentifier: identifierSegue, sender: nil)
@@ -609,6 +630,7 @@ class SecondTodayHistoryTableViewController: UITableViewController, NSFetchedRes
                 print(error)
             }
             CoreDataManager.instance.saveContext()
+            isNeedCreateNotification = true
             // save today in UserDefaults
             UserDefaults.standard.set(dateToday, forKey: "dateToday")
             UserDefaults.standard.synchronize()

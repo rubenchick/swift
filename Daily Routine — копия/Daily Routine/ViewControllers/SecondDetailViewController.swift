@@ -18,12 +18,11 @@
 // + 8. Добавить срок выполнения. % 5 дней
 // 8.5 Убрать желтые предупреждения
 // AppStore
-// 9. Сделать обучающие слайды???
-// 10. Английская версия
+// 9.+ Сделать обучающие слайды???
+// 10.+ Английская версия
 // 11. Почистить ViewDidLoad
 // 12. Почистить код.
-// 13.
-// 14. Поддержка IPad
+
 
 
 
@@ -69,11 +68,11 @@ class SecondDetailViewController: UIViewController {
 //                                  y: navigationBar.frame.midY - titelLabel.frame.height/2 ,
 //                                  width: titelLabel.frame.width,
 //                                  height: titelLabel.frame.height)
+
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         if let thingToDo = thingToDo {
             nameTextField.text = thingToDo.name
             noteTExtField.text = thingToDo.note
@@ -93,6 +92,7 @@ class SecondDetailViewController: UIViewController {
                 if thingToDo.weekly {
                     installSwitchForDaily(howOften: 2)
                     if let weekly = thingToDo.week {
+                        weeklyView.frame.size.width = monthlyView.frame.size.width
                         createElementForWeeklyView()
                         //                    bad idea, I known
                         for i in 1...7 {
@@ -158,6 +158,7 @@ class SecondDetailViewController: UIViewController {
                     UserDefaults.standard.set(1, forKey: "pageAllDay")
                 }
             }
+            isNeedCreateNotification = true
         } else {
             let alert = UIAlertController(title: NSLocalizedString("Attention", comment: ""),
                                           message: NSLocalizedString("No title entered", comment: ""), preferredStyle: .alert)
@@ -584,7 +585,6 @@ class SecondDetailViewController: UIViewController {
 
     // tag 1...7 - bad idea, I known
     func createElementForWeeklyView() {
-        
         weeklyView.layer.cornerRadius = 15
         //        let dayArray = ["Пн","Вт","Ср","Чт","Пт","Сб","Вс"] // tag 1...7
         let dayArray = [NSLocalizedString("Mo", comment: ""),
@@ -602,6 +602,7 @@ class SecondDetailViewController: UIViewController {
                 let dayButton = UIButton(type: .system)
                 // old data
 //                dayButton.frame = CGRect(x: Int(Double(widht)*1) + (i - 1) * Int(Double(widht) * 1.4) , y: widht * 4, width: widht, height: widht)
+
                 dayButton.frame = CGRect(x: Int(Double(widht)*1) + (i - 1) * Int(Double(widht) * 1.4) ,
                                          y: Int(weeklyView.frame.height / 2) ,
                                          width: widht, height: widht)
@@ -618,6 +619,7 @@ class SecondDetailViewController: UIViewController {
                 weeklyView.addSubview(dayButton)
             }
         }
+        
         readyWeeklyViewOutlet.sizeToFit()
         weeklyView.frame.size.height = CGFloat(widht * 8)
         readyWeeklyViewOutlet.center.x = CGFloat(Double(widht) * 5.6)

@@ -1,0 +1,656 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA3E075222A260BB0022EB3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E075122A260BB0022EB3C /* AppDelegate.swift */; };
+		CA3E075422A260BB0022EB3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E075322A260BB0022EB3C /* ViewController.swift */; };
+		CA3E075722A260BB0022EB3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3E075522A260BB0022EB3C /* Main.storyboard */; };
+		CA3E075A22A260BB0022EB3C /* Preferans_Pool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA3E075822A260BB0022EB3C /* Preferans_Pool.xcdatamodeld */; };
+		CA3E075C22A260C20022EB3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA3E075B22A260C20022EB3C /* Assets.xcassets */; };
+		CA3E075F22A260C20022EB3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA3E075D22A260C20022EB3C /* LaunchScreen.storyboard */; };
+		CA3E076A22A260C20022EB3C /* Preferans_PoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E076922A260C20022EB3C /* Preferans_PoolTests.swift */; };
+		CA3E077522A260C30022EB3C /* Preferans_PoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E077422A260C30022EB3C /* Preferans_PoolUITests.swift */; };
+		CA3E078322A261250022EB3C /* Pool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E078222A261250022EB3C /* Pool.swift */; };
+		CA3E078522A3D4ED0022EB3C /* tetrad-v-kletku.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA3E078422A3D4ED0022EB3C /* tetrad-v-kletku.jpg */; };
+		CA3E078722A3DF3E0022EB3C /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E078622A3DF3E0022EB3C /* Background.swift */; };
+		CA3E078922A3F4C50022EB3C /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E078822A3F4C50022EB3C /* Constant.swift */; };
+		CA3E078B22A41FEB0022EB3C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3E078A22A41FEB0022EB3C /* Model.swift */; };
+		CA6EEDF022A4EE4700A88136 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EEDEF22A4EE4700A88136 /* Coordinates.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA3E076622A260C20022EB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3E074622A260BB0022EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3E074D22A260BB0022EB3C;
+			remoteInfo = Preferans.Pool;
+		};
+		CA3E077122A260C30022EB3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA3E074622A260BB0022EB3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA3E074D22A260BB0022EB3C;
+			remoteInfo = Preferans.Pool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA3E074E22A260BB0022EB3C /* Preferans.Pool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Preferans.Pool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3E075122A260BB0022EB3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA3E075322A260BB0022EB3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA3E075622A260BB0022EB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA3E075922A260BB0022EB3C /* Preferans_Pool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Preferans_Pool.xcdatamodel; sourceTree = "<group>"; };
+		CA3E075B22A260C20022EB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA3E075E22A260C20022EB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA3E076022A260C20022EB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3E076522A260C20022EB3C /* Preferans.PoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Preferans.PoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3E076922A260C20022EB3C /* Preferans_PoolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferans_PoolTests.swift; sourceTree = "<group>"; };
+		CA3E076B22A260C30022EB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3E077022A260C30022EB3C /* Preferans.PoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Preferans.PoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3E077422A260C30022EB3C /* Preferans_PoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferans_PoolUITests.swift; sourceTree = "<group>"; };
+		CA3E077622A260C30022EB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA3E078222A261250022EB3C /* Pool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pool.swift; sourceTree = "<group>"; };
+		CA3E078422A3D4ED0022EB3C /* tetrad-v-kletku.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tetrad-v-kletku.jpg"; sourceTree = "<group>"; };
+		CA3E078622A3DF3E0022EB3C /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		CA3E078822A3F4C50022EB3C /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		CA3E078A22A41FEB0022EB3C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CA6EEDEF22A4EE4700A88136 /* Coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA3E074B22A260BB0022EB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3E076222A260C20022EB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3E076D22A260C30022EB3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA3E074522A260BB0022EB3C = {
+			isa = PBXGroup;
+			children = (
+				CA3E075022A260BB0022EB3C /* Preferans.Pool */,
+				CA3E076822A260C20022EB3C /* Preferans.PoolTests */,
+				CA3E077322A260C30022EB3C /* Preferans.PoolUITests */,
+				CA3E074F22A260BB0022EB3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA3E074F22A260BB0022EB3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E074E22A260BB0022EB3C /* Preferans.Pool.app */,
+				CA3E076522A260C20022EB3C /* Preferans.PoolTests.xctest */,
+				CA3E077022A260C30022EB3C /* Preferans.PoolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3E075022A260BB0022EB3C /* Preferans.Pool */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E075122A260BB0022EB3C /* AppDelegate.swift */,
+				CA3E075322A260BB0022EB3C /* ViewController.swift */,
+				CA6EEDF322A540EA00A88136 /* View */,
+				CA6EEDF122A4EE4F00A88136 /* Singlton */,
+				CA6EEDF222A540CC00A88136 /* Model */,
+				CA3E075522A260BB0022EB3C /* Main.storyboard */,
+				CA3E075B22A260C20022EB3C /* Assets.xcassets */,
+				CA3E078422A3D4ED0022EB3C /* tetrad-v-kletku.jpg */,
+				CA3E075D22A260C20022EB3C /* LaunchScreen.storyboard */,
+				CA3E076022A260C20022EB3C /* Info.plist */,
+				CA3E075822A260BB0022EB3C /* Preferans_Pool.xcdatamodeld */,
+			);
+			path = Preferans.Pool;
+			sourceTree = "<group>";
+		};
+		CA3E076822A260C20022EB3C /* Preferans.PoolTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E076922A260C20022EB3C /* Preferans_PoolTests.swift */,
+				CA3E076B22A260C30022EB3C /* Info.plist */,
+			);
+			path = Preferans.PoolTests;
+			sourceTree = "<group>";
+		};
+		CA3E077322A260C30022EB3C /* Preferans.PoolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E077422A260C30022EB3C /* Preferans_PoolUITests.swift */,
+				CA3E077622A260C30022EB3C /* Info.plist */,
+			);
+			path = Preferans.PoolUITests;
+			sourceTree = "<group>";
+		};
+		CA6EEDF122A4EE4F00A88136 /* Singlton */ = {
+			isa = PBXGroup;
+			children = (
+				CA6EEDEF22A4EE4700A88136 /* Coordinates.swift */,
+			);
+			path = Singlton;
+			sourceTree = "<group>";
+		};
+		CA6EEDF222A540CC00A88136 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E078822A3F4C50022EB3C /* Constant.swift */,
+				CA3E078A22A41FEB0022EB3C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CA6EEDF322A540EA00A88136 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA3E078622A3DF3E0022EB3C /* Background.swift */,
+				CA3E078222A261250022EB3C /* Pool.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA3E074D22A260BB0022EB3C /* Preferans.Pool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3E077922A260C30022EB3C /* Build configuration list for PBXNativeTarget "Preferans.Pool" */;
+			buildPhases = (
+				CA3E074A22A260BB0022EB3C /* Sources */,
+				CA3E074B22A260BB0022EB3C /* Frameworks */,
+				CA3E074C22A260BB0022EB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Preferans.Pool;
+			productName = Preferans.Pool;
+			productReference = CA3E074E22A260BB0022EB3C /* Preferans.Pool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA3E076422A260C20022EB3C /* Preferans.PoolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3E077C22A260C30022EB3C /* Build configuration list for PBXNativeTarget "Preferans.PoolTests" */;
+			buildPhases = (
+				CA3E076122A260C20022EB3C /* Sources */,
+				CA3E076222A260C20022EB3C /* Frameworks */,
+				CA3E076322A260C20022EB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3E076722A260C20022EB3C /* PBXTargetDependency */,
+			);
+			name = Preferans.PoolTests;
+			productName = Preferans.PoolTests;
+			productReference = CA3E076522A260C20022EB3C /* Preferans.PoolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA3E076F22A260C30022EB3C /* Preferans.PoolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA3E077F22A260C30022EB3C /* Build configuration list for PBXNativeTarget "Preferans.PoolUITests" */;
+			buildPhases = (
+				CA3E076C22A260C30022EB3C /* Sources */,
+				CA3E076D22A260C30022EB3C /* Frameworks */,
+				CA3E076E22A260C30022EB3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA3E077222A260C30022EB3C /* PBXTargetDependency */,
+			);
+			name = Preferans.PoolUITests;
+			productName = Preferans.PoolUITests;
+			productReference = CA3E077022A260C30022EB3C /* Preferans.PoolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA3E074622A260BB0022EB3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Anton Rubenchik";
+				TargetAttributes = {
+					CA3E074D22A260BB0022EB3C = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CA3E076422A260C20022EB3C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CA3E074D22A260BB0022EB3C;
+					};
+					CA3E076F22A260C30022EB3C = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CA3E074D22A260BB0022EB3C;
+					};
+				};
+			};
+			buildConfigurationList = CA3E074922A260BB0022EB3C /* Build configuration list for PBXProject "Preferans.Pool" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA3E074522A260BB0022EB3C;
+			productRefGroup = CA3E074F22A260BB0022EB3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA3E074D22A260BB0022EB3C /* Preferans.Pool */,
+				CA3E076422A260C20022EB3C /* Preferans.PoolTests */,
+				CA3E076F22A260C30022EB3C /* Preferans.PoolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA3E074C22A260BB0022EB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E075F22A260C20022EB3C /* LaunchScreen.storyboard in Resources */,
+				CA3E075C22A260C20022EB3C /* Assets.xcassets in Resources */,
+				CA3E078522A3D4ED0022EB3C /* tetrad-v-kletku.jpg in Resources */,
+				CA3E075722A260BB0022EB3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3E076322A260C20022EB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3E076E22A260C30022EB3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA3E074A22A260BB0022EB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E078B22A41FEB0022EB3C /* Model.swift in Sources */,
+				CA3E075422A260BB0022EB3C /* ViewController.swift in Sources */,
+				CA3E075222A260BB0022EB3C /* AppDelegate.swift in Sources */,
+				CA3E075A22A260BB0022EB3C /* Preferans_Pool.xcdatamodeld in Sources */,
+				CA3E078322A261250022EB3C /* Pool.swift in Sources */,
+				CA3E078722A3DF3E0022EB3C /* Background.swift in Sources */,
+				CA3E078922A3F4C50022EB3C /* Constant.swift in Sources */,
+				CA6EEDF022A4EE4700A88136 /* Coordinates.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3E076122A260C20022EB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E076A22A260C20022EB3C /* Preferans_PoolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA3E076C22A260C30022EB3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3E077522A260C30022EB3C /* Preferans_PoolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA3E076722A260C20022EB3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3E074D22A260BB0022EB3C /* Preferans.Pool */;
+			targetProxy = CA3E076622A260C20022EB3C /* PBXContainerItemProxy */;
+		};
+		CA3E077222A260C30022EB3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA3E074D22A260BB0022EB3C /* Preferans.Pool */;
+			targetProxy = CA3E077122A260C30022EB3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA3E075522A260BB0022EB3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3E075622A260BB0022EB3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA3E075D22A260C20022EB3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA3E075E22A260C20022EB3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA3E077722A260C30022EB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA3E077822A260C30022EB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA3E077A22A260C30022EB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BD88N55V;
+				INFOPLIST_FILE = Preferans.Pool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenchick.Preferans-Pool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA3E077B22A260C30022EB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BD88N55V;
+				INFOPLIST_FILE = Preferans.Pool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenchick.Preferans-Pool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA3E077D22A260C30022EB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BD88N55V;
+				INFOPLIST_FILE = Preferans.PoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenchick.Preferans-PoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preferans.Pool.app/Preferans.Pool";
+			};
+			name = Debug;
+		};
+		CA3E077E22A260C30022EB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BD88N55V;
+				INFOPLIST_FILE = Preferans.PoolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenchick.Preferans-PoolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Preferans.Pool.app/Preferans.Pool";
+			};
+			name = Release;
+		};
+		CA3E078022A260C30022EB3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BD88N55V;
+				INFOPLIST_FILE = Preferans.PoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenchick.Preferans-PoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Preferans.Pool;
+			};
+			name = Debug;
+		};
+		CA3E078122A260C30022EB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L3BD88N55V;
+				INFOPLIST_FILE = Preferans.PoolUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rubenchick.Preferans-PoolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Preferans.Pool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA3E074922A260BB0022EB3C /* Build configuration list for PBXProject "Preferans.Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E077722A260C30022EB3C /* Debug */,
+				CA3E077822A260C30022EB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3E077922A260C30022EB3C /* Build configuration list for PBXNativeTarget "Preferans.Pool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E077A22A260C30022EB3C /* Debug */,
+				CA3E077B22A260C30022EB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3E077C22A260C30022EB3C /* Build configuration list for PBXNativeTarget "Preferans.PoolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E077D22A260C30022EB3C /* Debug */,
+				CA3E077E22A260C30022EB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA3E077F22A260C30022EB3C /* Build configuration list for PBXNativeTarget "Preferans.PoolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA3E078022A260C30022EB3C /* Debug */,
+				CA3E078122A260C30022EB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CA3E075822A260BB0022EB3C /* Preferans_Pool.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CA3E075922A260BB0022EB3C /* Preferans_Pool.xcdatamodel */,
+			);
+			currentVersion = CA3E075922A260BB0022EB3C /* Preferans_Pool.xcdatamodel */;
+			path = Preferans_Pool.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CA3E074622A260BB0022EB3C /* Project object */;
+}

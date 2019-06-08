@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Preferans_Pool" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvu-NR-MGJ" customClass="Background" customModule="Preferans_Pool" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31t-Bf-M5J" customClass="Pool" customModule="Preferans_Pool" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.23232492804527283" green="0.2323179692029953" blue="0.48935145547945208" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="31t-Bf-M5J" firstAttribute="centerY" secondItem="cvu-NR-MGJ" secondAttribute="centerY" id="Nz7-ay-drP"/>
+                                    <constraint firstItem="31t-Bf-M5J" firstAttribute="width" secondItem="cvu-NR-MGJ" secondAttribute="width" id="R3D-hG-e2z"/>
+                                    <constraint firstItem="31t-Bf-M5J" firstAttribute="height" secondItem="cvu-NR-MGJ" secondAttribute="height" constant="-482" id="c9p-8B-GVU"/>
+                                    <constraint firstItem="31t-Bf-M5J" firstAttribute="width" secondItem="cvu-NR-MGJ" secondAttribute="height" multiplier="207:448" id="fij-VT-cxu"/>
+                                    <constraint firstItem="31t-Bf-M5J" firstAttribute="centerX" secondItem="cvu-NR-MGJ" secondAttribute="centerX" id="sqq-jj-KNb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cvu-NR-MGJ" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Gkv-yB-V7Q"/>
+                            <constraint firstItem="cvu-NR-MGJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PWx-c0-w0F"/>
+                            <constraint firstItem="cvu-NR-MGJ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ioX-xq-3h8"/>
+                            <constraint firstAttribute="bottom" secondItem="cvu-NR-MGJ" secondAttribute="bottom" id="xwt-He-N60"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.98550724637681" y="85.714285714285708"/>
+        </scene>
+    </scenes>
+</document>

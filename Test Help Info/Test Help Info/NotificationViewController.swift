@@ -8,12 +8,15 @@
 
 import UIKit
 import UserNotifications
+let notifications = Notifications() // new version
 
 class NotificationViewController: UIViewController {
-//    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+    let appDelegate = UIApplication.shared.delegate as? AppDelegate
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-//        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()
+//        UNUserNotificationCenter.current().removeAllPendingNotificationRequests()  // new version
+
 //        let firstLabel = UILabel(frame: CGRect(x: 100, y: 550, width: 100, height: 44))
 //        firstLabel.text = "Haifa - city"
 ////        let scrollView = UIScrollView()
@@ -29,35 +32,36 @@ class NotificationViewController: UIViewController {
     }
     
     @IBAction func pressStart(_ sender: UIButton) {
+        notifications.removeAllNotification()
+        notifications.pushNotification(tasks: 8)
         
-        
-        let text = "וּ‬אבאָ"
-        for i in text.utf8 {
-            print(i)
-        }
-        print(" ")
-        for i in text.utf16 {
-            print(i)
-        }
-        print(" ")
-        for i in text.unicodeScalars{
-            print(i)
-        }
-        print(" ")
-        for i in text
-        {
-            print(i)
-        }
+//        let text = "וּ‬אבאָ"
+//        for i in text.utf8 {
+//            print(i)
+//        }
+//        print(" ")
+//        for i in text.utf16 {
+//            print(i)
+//        }
+//        print(" ")
+//        for i in text.unicodeScalars{
+//            print(i)
+//        }
+//        print(" ")
+//        for i in text
+//        {
+//            print(i)
+//        }
 
-//        appDelegate?.schedularNotification()
+//        appDelegate?.schedularNotification() // new version
         
-//        let date = Date()
-//        let calendar = Calendar.current
-//
-//        let hour = calendar.component(.hour, from: date)
-//        let minutes = calendar.component(.minute, from: date)
-//        let seconds = calendar.component(.second, from: date)
-//        print("hours = \(hour):\(minutes):\(seconds)")
+        let date = Date()
+        let calendar = Calendar.current
+
+        let hour = calendar.component(.hour, from: date)
+        let minutes = calendar.component(.minute, from: date)
+        let seconds = calendar.component(.second, from: date)
+        print("time = \(hour):\(minutes):\(seconds)")
     }
 
 

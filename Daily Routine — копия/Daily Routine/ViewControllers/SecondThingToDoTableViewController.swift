@@ -92,15 +92,6 @@ class SecondThingToDoTableViewController: UITableViewController, NSFetchedResult
                         if newWeek.saturday { addInfo = addInfo + " " + NSLocalizedString("Sa.", comment: "") }
                         if newWeek.sunday { addInfo = addInfo + " " + NSLocalizedString("Su.", comment: "") }
                     }
-//                    if let newWeek = thingToDo.week {
-//                        if newWeek.monday { addInfo = addInfo + "Пн." }
-//                        if newWeek.tuesday { addInfo = addInfo + " " + "Вт." }
-//                        if newWeek.wednesday { addInfo = addInfo + " " + "Ср." }
-//                        if newWeek.thursday { addInfo = addInfo + " " + "Чт." }
-//                        if newWeek.friday { addInfo = addInfo + " " + "Пт." }
-//                        if newWeek.saturday { addInfo = addInfo + " " + "Сб." }
-//                        if newWeek.sunday { addInfo = addInfo + " Вс." }
-//                    }
                     addInfo = addInfo + " ]"
                     if addInfo == " [ ]" { addInfo = ""}
                 } else {

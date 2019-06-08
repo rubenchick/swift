@@ -16,7 +16,7 @@ class ScrollViewController: UIViewController {
         super.viewDidLoad()
         print(takeDifferentWordsForm(commonWord: text).hebrew)
         print(" ---- ")
-        print(takeDifferentWordsForm(commonWord: text).russia)
+        print(takeDifferentWordsForm(commonWord: text).russian)
 
     }
     enum TypeOfSearch {

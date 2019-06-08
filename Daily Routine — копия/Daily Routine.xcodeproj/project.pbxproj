@@ -27,6 +27,7 @@
 		CA6CEE1020FB65D500C4374F /* ThingToDo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CEE0020FB65C100C4374F /* ThingToDo+CoreDataProperties.swift */; };
 		CA6CEE7320FCB5C800C4374F /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CEE7220FCB5C800C4374F /* CoreDataManager.swift */; };
 		CA6CEE7820FE24F800C4374F /* ModelDailyRoutineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6CEE7720FE24F800C4374F /* ModelDailyRoutineCell.swift */; };
+		CA6EEDF722A7C9A000A88136 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6EEDF622A7C9A000A88136 /* Notification.swift */; };
 		CAA93FB021EBB9EE00A0937D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAA93FAE21EBB9EE00A0937D /* Localizable.strings */; };
 		CAA93FBD21ECF2D100A0937D /* icon76.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA93FB121ECF2CA00A0937D /* icon76.png */; };
 		CAA93FBE21ECF2D100A0937D /* icon40.png in Resources */ = {isa = PBXBuildFile; fileRef = CAA93FB221ECF2CB00A0937D /* icon40.png */; };
@@ -66,6 +67,7 @@
 		CA6CEE0020FB65C100C4374F /* ThingToDo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "ThingToDo+CoreDataProperties.swift"; path = "Entity/ThingToDo+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		CA6CEE7220FCB5C800C4374F /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		CA6CEE7720FE24F800C4374F /* ModelDailyRoutineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDailyRoutineCell.swift; sourceTree = "<group>"; };
+		CA6EEDF622A7C9A000A88136 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		CAA93FAD21EBA29800A0937D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		CAA93FAF21EBB9EE00A0937D /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CAA93FB121ECF2CA00A0937D /* icon76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon76.png; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				CA2DDC062103300E00CD7123 /* SecondTodayHistoryTableViewController.swift */,
 				CA2DDC082103336A00CD7123 /* SecondThingToDoTableViewController.swift */,
 				CA2DDC0A2103391B00CD7123 /* SecondDetailViewController.swift */,
+				CA6EEDF622A7C9A000A88136 /* Notification.swift */,
 				CA2DDC0E2103945100CD7123 /* SecondTodayHistoryTableViewCell.swift */,
 				CA6CEDCD20FB583900C4374F /* ViewController.swift */,
 			);
@@ -264,6 +267,7 @@
 			files = (
 				CA6CEE0920FB65D500C4374F /* History+CoreDataClass.swift in Sources */,
 				CA6CEE0B20FB65D500C4374F /* Week+CoreDataClass.swift in Sources */,
+				CA6EEDF722A7C9A000A88136 /* Notification.swift in Sources */,
 				CA6CEDCE20FB583900C4374F /* ViewController.swift in Sources */,
 				CA6CEDD420FB583900C4374F /* Daily_Routine.xcdatamodeld in Sources */,
 				CA2DDC072103300E00CD7123 /* SecondTodayHistoryTableViewController.swift in Sources */,

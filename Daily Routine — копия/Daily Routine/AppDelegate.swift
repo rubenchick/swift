@@ -17,9 +17,14 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let notifications = Notifications() 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        
+        notifications.notificationCenter.delegate = notifications
+        notifications.notificationRequest()
+        
         // Override point for customization after application launch.
 //        UINavigationBar.appearance().backgroundColor = .white
 //        var navigationBarAppearace = UINavigationBar.appearance()
